@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -28,44 +29,43 @@
     </div>
     <div class="container">
         <div class="container1">
-        <div class="second-top-menu">
+            <div class="second-top-menu">
+                <div>
+                    <img src="assets/images/wood-logo-dark (2).svg" alt="" class="logo">
+                </div>
+            </div>
             <div>
-                <img src="assets/images/wood-logo-dark (2).svg" alt="" class="logo">
+                <ul class="nav">
+                    <div style="margin-left: 27px">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">PAGES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">ELEMENTS</a>
+                        </li>
+                    </div>
+                    <div style="margin-left: 275px;">
+                        <li class="nav-item">
+                            <a class="nav-link">LOGIN/REGISTER</a>
+                        </li>
+                    </div>
+                </ul>
             </div>
         </div>
-        <div>
-            <ul class="nav">
-                <div style="margin-left: 27px">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">BLOG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">SHOP</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">PAGES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">ELEMENTS</a>
-                    </li>
-                </div>
-                <div style="margin-left: 275px;">
-                    <li class="nav-item">
-                        <a class="nav-link">LOGIN/REGISTER</a>
-                    </li>
-                </div>
-            </ul>
-        </div>
-      </div>  
-    
-    <div id="third-list">
+        <div id="third-list">
             <ul class="list-group">
                 <li class="list-group-item" id="firstItemstyle">CATEGORIES</li>
                 <li class="list-group-item">Furniture</li>
-                <li class="list-group-item">Cooking</li>
+                <li class="list-group-item" onfocus="cookingTabDisplay(this.x)">Cooking</li>
                 <li class="list-group-item">Accessories</li>
                 <li class="list-group-item">Fashion</li>
                 <li class="list-group-item">Clocks</li>
@@ -76,15 +76,451 @@
                 <li class="list-group-item">Electronics</li>
                 <li class="list-group-item">Car</li>
             </ul>
+            <div class="cookingstyle" id="cooking">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="firstcolumntyle">SOFAS AND ARMCHAIRS</th>
+                            <th class="secondcolumnstyle">TABLES AND CHAIRS</th>
+                            <th class="secondcolumnstyle">KIDS FURNITURE</th>
+                            <th class="secondcolumnstyle">DINING</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="firstcolumntyle">Easy chairs</td>
+                            <td class="secondcolumnstyle">Console Tables</td>
+                            <td class="secondcolumnstyle">Kids Lighting</td>
+                            <td class="secondcolumnstyle">Dining Chairs</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Small Sofas</td>
+                            <td class="secondcolumnstyle">Secretary Desks</td>
+                            <td class="secondcolumnstyle">Kids Textiles</td>
+                            <td class="secondcolumnstyle">Tea & Coffee</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Day Beds</td>
+                            <td class="secondcolumnstyle">Game Tables</td>
+                            <td class="secondcolumnstyle">Kids Bathroom</td>
+                            <td class="secondcolumnstyle">Table Linen</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Footstools</td>
+                            <td class="secondcolumnstyle">Coffee Tables</td>
+                            <td class="secondcolumnstyle">Kids Bedroom</td>
+                            <td class="secondcolumnstyle">Glassware</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="firstcolumntyle">STORAGE SYSTEMS</th>
+                            <th class="sectablecol-style">CHESTS OF DRAWERS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="firstcolumntyle">Shoe Cabinets</td>
+                            <td class="sectablecol-style">Hallway Units</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Trolleys</td>
+                            <td class="sectablecol-style">Display Cabinets</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Hallway Units</td>
+                            <td class="sectablecol-style">Storage Walls</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Screens</td>
+                            <td class="sectablecol-style">Sideboards</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Storage Chests</td>
+                            <td class="sectablecol-style">Bookcases</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="lightingstyle">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="firstcolumntyle">SOFAS AND ARMCHAIRS</th>
+                            <th class="secondcolumnstyle">TABLES AND CHAIRS</th>
+                            <th class="secondcolumnstyle">KIDS FURNITURE</th>
+                            <th class="secondcolumnstyle">DINING</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="firstcolumntyle">Easy chairs</td>
+                            <td class="secondcolumnstyle">Console Tables</td>
+                            <td class="secondcolumnstyle">Kids Lighting</td>
+                            <td class="secondcolumnstyle">Dining Chairs</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Small Sofas</td>
+                            <td class="secondcolumnstyle">Secretary Desks</td>
+                            <td class="secondcolumnstyle">Kids Textiles</td>
+                            <td class="secondcolumnstyle">Tea & Coffee</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Day Beds</td>
+                            <td class="secondcolumnstyle">Game Tables</td>
+                            <td class="secondcolumnstyle">Kids Bathroom</td>
+                            <td class="secondcolumnstyle">Table Linen</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Footstools</td>
+                            <td class="secondcolumnstyle">Coffee Tables</td>
+                            <td class="secondcolumnstyle">Kids Bedroom</td>
+                            <td class="secondcolumnstyle">Glassware</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="firstcolumntyle">STORAGE SYSTEMS</th>
+                            <th class="sectablecol-style">CHESTS OF DRAWERS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="firstcolumntyle">Shoe Cabinets</td>
+                            <td class="sectablecol-style">Hallway Units</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Trolleys</td>
+                            <td class="sectablecol-style">Display Cabinets</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Hallway Units</td>
+                            <td class="sectablecol-style">Storage Walls</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Screens</td>
+                            <td class="sectablecol-style">Sideboards</td>
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Storage Chests</td>
+                            <td class="sectablecol-style">Bookcases</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="Accessories">
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="firstcolumntyle">SOFAS AND ARMCHAIRS</th>
+                                <th class="secondcolumnstyle">TABLES AND CHAIRS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="firstcolumntyle">Easy chairs</td>
+                                <td class="secondcolumnstyle">Console Tables</td>
+                            </tr>
+                            <tr>
+                                <td class="firstcolumntyle">Small Sofas</td>
+                                <td class="secondcolumnstyle">Secretary Desks</td>
+                            </tr>
+                            <tr>
+                                <td class="firstcolumntyle">Day Beds</td>
+                                <td class="secondcolumnstyle">Game Tables</td>
+                            </tr>
+                            <tr>
+                                <td class="firstcolumntyle">Footstools</td>
+                                <td class="secondcolumnstyle">Coffee Tables</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="firstcolumntyle">STORAGE SYSTEMS</th>
+                                <th class="sectablecol-style">CHESTS OF DRAWERS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="firstcolumntyle">Shoe Cabinets</td>
+                                <td class="sectablecol-style">Hallway Units</td>
+                            </tr>
+                            <tr>
+                                <td class="firstcolumntyle">Trolleys</td>
+                                <td class="sectablecol-style">Display Cabinets</td>
+                            </tr>
+                            <tr>
+                                <td class="firstcolumntyle">Hallway Units</td>
+                                <td class="sectablecol-style">Storage Walls</td>
+                            </tr>
+                            <tr>
+                                <td class="firstcolumntyle">Screens</td>
+                                <td class="sectablecol-style">Sideboards</td>
+                            </tr>
+                            <tr>
+                                <td class="firstcolumntyle">Storage Chests</td>
+                                <td class="sectablecol-style">Bookcases</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">SUMMER STYLE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="/genserve/assets/images/wood-product-paceholder-300x300_50_1_50.jpg" />Wooden single drawer</td>
+                            </tr>
+                            <tr>
+                                <td><img src="/genserve/assets/images/wood-product-paceholder-300x300_50_1_50.jpg" />Wooden single drawer</td>
+                            </tr>
+                            <tr>
+                                <td><img src="/genserve/assets/images/wood-product-paceholder-300x300_50_1_50.jpg" />Wooden single drawer</td>
+                            </tr>
+                            <tr>
+                                <td><img src="/genserve/assets/images/wood-product-paceholder-300x300_50_1_50.jpg" />Wooden single drawer</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-        <div>
+        <div class="placeholder">
+            <div class="img-thumbnail">
+                <a href=""><img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+        </div>
+        <div style="text-align: center;">
             <p class="h5">WELCOME TO WOODMART</p>
             <p class="h1">FEATURED PRODUCTS</p>
             <p>Nec sem consequat mi gravida augue augue suspendisse condimentum especially for an experiment</p>
         </div>
-    
-    
+        <div class="placeholder">
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+        </div>
+        <div class="placeholder">
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <p class="h5">WELCOME TO WOODMART</p>
+            <p class="h1">FEATURED PRODUCTS</p>
+            <p>Nec sem consequat mi gravida augue augue suspendisse condimentum especially for an experiment</p>
+        </div>
+        <div class="placeholder">
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <p class="h5">WELCOME TO WOODMART</p>
+            <p class="h1">FEATURED PRODUCTS</p>
+            <p>Nec sem consequat mi gravida augue augue suspendisse condimentum especially for an experiment</p>
+        </div>
+        <div class="placeholder">
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+            <div class="img-thumbnail">
+                <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
+            </div>
+        </div>
+        <div style="text-align: center;">
+            <p class="h5">WELCOME TO WOODMART</p>
+            <p class="h1">FEATURED PRODUCTS</p>
+            <p>Nec sem consequat mi gravida augue augue suspendisse condimentum especially for an experiment</p>
+        </div>
+        <div style="display: flex;">
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>FEATURED PRODUCTS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="/genserve/assets/images/wood-product-paceholder-300x300_50_1_50.jpg" />Wooden single drawer</td>
+                        <tr>
+                        <tr>
+                            <td><img src="/genserve/assets/images/wood-product-paceholder-300x300_50_1_50.jpg" />Wooden single drawer</td>
+                        </tr>
+                        <tr>
+                        <tr>
+                            <td><img src="/genserve/assets/images/wood-product-paceholder-300x300_50_1_50.jpg" />Wooden single drawer</td>
+                        </tr>
+                    <tbody>
+                </table>
+            </div>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>FEATURED PRODUCTS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="/genserve/assets/images/wood-product-paceholder-300x300_50_1_50.jpg" />Wooden single drawer</td>
+                        <tr>
+                        <tr>
+                            <td><img src="/genserve/assets/images/wood-product-paceholder-300x300_50_1_50.jpg" />Wooden single drawer</td>
+                        </tr>
+                        <tr>
+                        <tr>
+                            <td><img src="/genserve/assets/images/wood-product-paceholder-300x300_50_1_50.jpg" />Wooden single drawer</td>
+                        </tr>
+                    <tbody>
+                </table>
+            </div>
+            <div>
+                <div style="text-align: center;">
+                    <p class="h5">WELCOME TO WOODMART</p>
+                    <p class="h3">FEATURED PRODUCTS</p>
+                    <p>Sign up for all the news about our last arrivals and get an exclusive early access shopping.</p>
+                </div>
+                <div>
+                    <nav class="navbar navbar-light bg-light">
+                        <div class="container-fluid">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="lastdivstyle">
+        <div>
+            <ul  class="list-group">
+            <li>Condimentum adipiscing vel neque dis nam parturient orci at scelerisque neque dis nam parturient.</li>
+           <li>451 Wall Street,UK,London</li> 
+           <li>Phone:(064)332-1233</li>
+           <li>Fax:(099)453-1357</li>
+           <ul>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                    <th>RECENT POSTS</th>
+                   </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                       <td><img src="/genserve/assets/images/wood-product-paceholder-300x300_50_1_50.jpg" />Wooden single drawer</td>
+
+                    </tr>
+                    <tr>
+                         <td><img src="/genserve/assets/images/wood-product-paceholder-300x300_50_1_50.jpg" />Wooden single drawer</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table>
+                    <thead>
+                        <tr>
+                            <th class="firstcolumntyle">SOFAS AND ARMCHAIRS</th>
+                            <th class="secondcolumnstyle">TABLES AND CHAIRS</th>
+                            <th class="secondcolumnstyle">KIDS FURNITURE</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="firstcolumntyle">Easy chairs</td>
+                            <td class="secondcolumnstyle">Console Tables</td>
+                            <td class="secondcolumnstyle">Kids Lighting</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Small Sofas</td>
+                            <td class="secondcolumnstyle">Secretary Desks</td>
+                            <td class="secondcolumnstyle">Kids Textiles</td>
+                           
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Day Beds</td>
+                            <td class="secondcolumnstyle">Game Tables</td>
+                            <td class="secondcolumnstyle">Kids Bathroom</td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="firstcolumntyle">Footstools</td>
+                            <td class="secondcolumnstyle">Coffee Tables</td>
+                            <td class="secondcolumnstyle">Kids Bedroom</td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+    </div>
+   
+    <script>
+    function cookingTabDisplay(x) {
+        var x = document.getElementById("cooking");
+        x.style.display = "block";
+    }
+    </script>
 </body>
 
 </html>

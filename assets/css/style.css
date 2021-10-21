@@ -68,3 +68,37 @@ div li{display: inline-flex;}
 	color: white;
 }
 .list-group-item{width: 251px;}
+.firstcolumntyle{
+	padding-left: 25px;
+}
+.secondcolumnstyle{
+	padding-left: 55px;
+}
+.sectablecol-style{
+	padding-left: 95px;
+}
+table tr{height: 40px;}
+.cookingstyle{
+	background-color: black;
+	color: white;
+	display: none;
+}
+.lightingstyle{
+	display: none;
+}
+.Accessories{
+	width: 70%;
+	display: flex;
+}
+.placeholder{
+	display: inline-flex;
+}
+.img-thumbnail{
+	border: none;
+	border-radius: 0px;
+} 
+.lastdivstyle{
+	background-color: black;
+	color: white;
+	display: flex;
+}
