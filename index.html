@@ -44,7 +44,7 @@
                             <a class="nav-link" href="#">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">SHOP</a>
+                            <a class="nav-link" id="ShopIcon">SHOP</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">PAGES</a>
@@ -61,6 +61,122 @@
                 </ul>
             </div>
         </div>
+    </div>
+    <div>
+    <div class="menu-display-style">
+    <div class="shop-menu-div-style" id="ShopMenu">
+        <table>
+            <thead>
+                <tr>
+                    <th class="shop-leftend-tr">SHOP PAGES</th>
+                    <th class="shop-middle-tr">PRODUCT HOVERS</th>
+                    <th class="shop-middle-tr">PRODUCT PAGES</th>
+                    <th class="shop-middle-tr">PRODUCT IMAGES</th>
+                    <th class="shop-middle-tr">WOOCOMMERCE</th>
+                    <th class="shop-rightend-tr">FEATURES</th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="shop-leftend-tr">Filters area</td>
+                    <td class="shop-middle-tr">Summary on hover</td>
+                    <td class="shop-middle-tr">Default</td>
+                    <td class="shop-middle-tr">Thumbnails left</td>
+                    <td class="shop-middle-tr">Simple product</td>
+                    <td class="shop-rightend-tr">360 product viewer</td>
+                     
+                </tr>
+                <tr>
+                    <td class="shop-leftend-tr">Hidden sidebar</td>
+                    <td class="shop-middle-tr">Icons on hover</td>
+                    <td class="shop-middle-tr">Centered</td>
+                    <td class="shop-middle-tr">Thumbnail bottoms</td>
+                    <td class="shop-middle-tr">Variable product</td>
+                    <td class="shop-rightend-tr">With video</td>
+                   
+                </tr>
+                <tr>
+                    <td class="shop-leftend-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-rightend-tr"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="shop-leftend-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-rightend-tr"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="shop-leftend-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-rightend-tr"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="shop-leftend-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-rightend-tr"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="shop-leftend-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-rightend-tr"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="shop-leftend-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-middle-tr"></td>
+                    <td class="shop-rightend-tr"></td>
+                    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="pageStyle">
+        <table>
+            <thead>
+                <tr>
+                    <th class="shop-leftend-tr">SHOP PAGES</th>
+                    <th class="shop-middle-tr">PRODUCT HOVERS</th>
+                    <th class="shop-middle-tr">PRODUCT PAGES</th>
+                    
+                   
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="shop-leftend-tr">Filters area</td>
+                    <td class="shop-middle-tr">Summary on hover</td>
+                    <td class="shop-middle-tr">Default</td>
+                   
+                     
+                </tr>
+            </tbody>  
+      </table>  
+    </div>
+</div>
+        <div class="container">
         <div id="third-list">
             <ul class="list-group">
                 <li class="list-group-item" id="firstItemstyle">CATEGORIES</li>
@@ -571,6 +687,10 @@
                 </table>
             </div>
         </div>
+    </div>
+</div>
+<!-- //end of this section--> 
+     <div class="container">
         <div class="placeholder">
             <div class="img-thumbnail">
                 <a href=""><img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
@@ -639,6 +759,7 @@
             <p class="h1">FEATURED PRODUCTS</p>
             <p>Nec sem consequat mi gravida augue augue suspendisse condimentum especially for an experiment</p>
         </div>
+
         <div class="placeholder">
             <div class="img-thumbnail">
                 <a href=""> <img src="assets/images/wood-product-paceholder-300x300.jpg" /> </a>
@@ -881,6 +1002,18 @@
          console.log("event taking check")
    // highlight the mouseover target
       document.getElementById("Toys").style.display = "none";
+      });
+
+      let shopicon = document.getElementById("ShopIcon");
+      shopicon.addEventListener("mouseover", function() {
+         console.log("event taking check")
+   // highlight the mouseover target
+      document.getElementById("ShopMenu").style.display = "block";
+      });
+      shopicon.addEventListener("mouseleave", function() {
+         console.log("event taking check")
+   // highlight the mouseover target
+      document.getElementById("ShopMenu").style.display = "none";
       });
 
     </script> 

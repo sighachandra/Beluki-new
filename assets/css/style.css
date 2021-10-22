@@ -125,7 +125,10 @@ table tr {
 }
 
 .placeholder {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
 }
 
 .img-thumbnail {
@@ -192,4 +195,32 @@ table tr {
 }
 #ToysItemDisplay:hover {
 	background-color: #F9F9F9;
+}
+.shop-middle-tr{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.shop-leftend-tr{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.shop-rightend-tr{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.shop-menu-div-style{
+	box-shadow: 0px 0px 4px grey;
+	display: none;
+}
+.pageStyle{
+	position: fixed;
+	right: 40px;
+	display:  none;
+}
+.menu-display-style{
+	position: absolute;
+	z-index: 1;
+	
+	background-color: white;
+	width: 100%;
 }
