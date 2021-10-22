@@ -1,104 +1,195 @@
-.topTab{
-	height: 40px;
-	background-color: #da3f3c;
-	position: relative;
+.topTab {
+    height: 40px;
+    background-color: #da3f3c;
+    position: relative;
 }
-.topTabP{
-	color: white;
-	padding-top: 9px;
-	padding-left: 33px;
-	font-size: small;
+
+.topTabP {
+    color: white;
+    padding-top: 9px;
+    padding-left: 33px;
+    font-size: small;
 }
-.second-top-menu{
-	display: inline-flex;
+
+.second-top-menu {
+    display: inline-flex;
 }
-.nav-itemsStyle{
-	position: absolute;
-	right: 45px;
-	top: 0px;
-	color: white !important;
+
+.nav-itemsStyle {
+    position: absolute;
+    right: 45px;
+    top: 0px;
+    color: white !important;
 }
-.nav-link1-style{
-	color: white;
-	
-}
-.nav-link2-style{
-	color: white;
-	
-}
-.logo{
-	
-	max-width: 220px;
-}
-.container1{
-	
-	padding-bottom: 10px;
-	margin-top: 32px;
-	display: flex;
-}
-.nav{
-	font-size: small;
-}
-.nav-link {
-	color: black;
-	font-weight: 500;
-}
-.relative{
-	position: relative;
-}
-.absolute{
-	position: absolute;
-}
-.navbar1{
-	padding-top: 22px;
-	background-color: white !important;
-}
-.container-fluid{
+
+.nav-link1-style {
+    color: white;
 
 }
-div li{display: inline-flex;}
-#third-list{
-	display: flex;
-	flex-direction: row;
-	padding-top: 17px;
+
+.nav-link2-style {
+    color: white;
+
 }
-#firstItemstyle{
-	background-color: #da3f3c ;
-	height: 50px;
-	color: white;
+
+.logo {
+
+    max-width: 220px;
 }
-.list-group-item{width: 251px;}
-.firstcolumntyle{
-	padding-left: 25px;
+
+.container1 {
+
+    padding-bottom: 10px;
+    margin-top: 32px;
+    display: flex;
 }
-.secondcolumnstyle{
-	padding-left: 55px;
+
+.nav {
+    font-size: small;
 }
-.sectablecol-style{
-	padding-left: 95px;
+
+.nav-link {
+    color: black;
+    font-weight: 500;
 }
-table tr{height: 40px;}
-.cookingstyle{
-	background-color: black;
-	color: white;
-	display: none;
+
+.relative {
+    position: relative;
 }
-.lightingstyle{
-	display: none;
+
+.absolute {
+    position: absolute;
 }
-.Accessories{
-	width: 70%;
-	display: flex;
+
+.navbar1 {
+    padding-top: 22px;
+    background-color: white !important;
 }
-.placeholder{
-	display: inline-flex;
+
+.container-fluid {}
+
+.nav-item {
+    display: inline-flex;
 }
-.img-thumbnail{
-	border: none;
-	border-radius: 0px;
-} 
-.lastdivstyle{
-	background-color: black;
-	color: white;
-	display: flex;
+
+#third-list {
+    display: flex;
+    flex-direction: row;
+    padding-top: 17px;
+}
+
+#firstItemstyle {
+    background-color: #da3f3c;
+    height: 50px;
+    color: white;
+}
+
+.list-group-item {
+    width: 251px;
+}
+
+.firstcolumntyle {
+    padding-left: 25px;
+}
+
+.secondcolumnstyle {
+    padding-left: 55px;
+}
+
+.sectablecol-style {
+    padding-left: 95px;
+}
+
+table tr {
+    height: 40px;
+}
+
+.cookingstyle {
+    background-color: black;
+    color: white;
+    display: none;
+}
+
+.lightingstyle {
+    display: none;
+}
+
+.AccessoriesStyle {
+    width: 70%;
+    display: flex;
+    display: none;
+}
+
+.furnitureStyle {
+    display: none;
+}
+
+.placeholder {
+    display: inline-flex;
+}
+
+.img-thumbnail {
+    border: none;
+    border-radius: 0px;
+}
+
+.lastdivstyle {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.signup-Box-style {
+    border: 2px solid grey;
+    height: 70%;
+    margin-top: 25px;
+}
+
+.fashionStyle {
+    display: none;
+}
+
+.fashionFirstdiv {
+    display: flex;
+}
+
+.fashionSeconddiv {
+    display: flex;
+}
+
+.fashionThirddiv {
+    display: flex;
+}
+
+.remove-border-list {
+    border: none !important;
+}
+
+.clockStyle {
+    display: none;
+}
+
+.toysStyle {
+    display: none;
+}
+#FurnitureItemDisplay:hover {
+	background-color: #F9F9F9;
+}
+#CookingItemDisplay:hover {
+	background-color: #F9F9F9;
+}
+#AccessoriesItemDisplay:hover {
+	background-color: #F9F9F9;
+}
+#FashionItemDisplay:hover {
+	background-color: #F9F9F9;
+}
+#ClocksItemDisplay:hover {
+	background-color: #F9F9F9;
+}
+#LightingItemDisplay:hover {
+	background-color: #F9F9F9;
+}
+#ToysItemDisplay:hover {
+	background-color: #F9F9F9;
 }
