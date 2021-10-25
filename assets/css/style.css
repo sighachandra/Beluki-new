@@ -107,12 +107,6 @@ table tr {
 
 
 
-.AccessoriesStyle {
-    width: 70%;
-    display: flex;
-    display: none;
-}
-
 
 
 .placeholder {
@@ -159,18 +153,13 @@ table tr {
     border: none !important;
 }
 
-.clockStyle {
-    display: none;
-}
+
 
 .toysStyle {
     display: none;
 }
 
 
-#AccessoriesItemDisplay:hover {
-	background-color: #F9F9F9;
-}
 #FashionItemDisplay:hover {
 	background-color: #F9F9F9;
 }
@@ -291,7 +280,7 @@ table tr {
 /*lighting table style start*/
 
 .lightingstyle {
-  /*  display: none;*/
+    display: none;
    border: 1px solid #ece0e0;
    border-left: 0px;
 }
@@ -299,6 +288,53 @@ table tr {
     padding-top: 42px;
     padding-right: 90px;
 }
+/*lighting style end*/
+/*clock style begins*/
+.clockStyle {
+    display: none;
+   border: 1px solid #ece0e0;
+   border-left: 0px;
+}
+.clock-p-div2{
+    height: 50px;
+    background-color: #f9f9f9;
+}
+.clock-p-div1{
+    padding-top: 50px;
+    text-align: center;
+}
+.clock-table-content{
+    padding-top: 22px;
+    padding-right: 90px;
+}
+/*end of this section*/
+/*accessories styling begining*/
+
+#AccessoriesItemDisplay:hover {
+    background-color: #F9F9F9;
+}
+
+.AccessoriesStyle {
+    width: 70%;
+    display: flex;
+     border: 1px solid #ece0e0;
+   border-left: 0px;
+    display: none;
+}
+.accesories-table-content{
+    display: flex;
+    
+}
+.acc-div2-style{
+    padding-left: 104px;
+}
+.acc-div3-style{
+  border: 1px solid #ece0e0; 
+  border-right: 0px; 
+  border-top: 0px;
+
+}
+/*end of this section*/
 /*common font size for head and data*/
 .font-size-for-h{
     font-size: 15px;

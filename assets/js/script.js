@@ -1,40 +1,40 @@
-// let cookingtable = document.getElementById("CookingItemDisplay");
-// cookingtable.addEventListener("mouseover", function() {
-//     console.log("event taking check")
-//     // highlight the mouseover target
-//     document.getElementById("cooking").style.display = "block";
-// });
-// cookingtable.addEventListener("mouseleave", function() {
-//     console.log("event taking check")
-//     // highlight the mouseover target
-//     document.getElementById("cooking").style.display = "none";
-// });
+ let cookingtable = document.getElementById("CookingItemDisplay");
+ cookingtable.addEventListener("mouseover", function() {
+     console.log("event taking check")
+     // highlight the mouseover target
+     document.getElementById("cooking").style.display = "block";
+ });
+ cookingtable.addEventListener("mouseleave", function() {
+     console.log("event taking check")
+     // highlight the mouseover target
+     document.getElementById("cooking").style.display = "none";
+ });
 
 
-// let furnituretable = document.getElementById("FurnitureItemDisplay");
-// furnituretable.addEventListener("mouseover", function() {
-//     console.log("event taking check")
-//     // highlight the mouseover target
-//     document.getElementById("furniture").style.display = "block";
-// });
-// furnituretable.addEventListener("mouseleave", function() {
-//     console.log("event taking check")
-//     // highlight the mouseover target
-//     document.getElementById("furniture").style.display = "none";
-// });
+ let furnituretable = document.getElementById("FurnitureItemDisplay");
+ furnituretable.addEventListener("mouseover", function() {
+     console.log("event taking check")
+     // highlight the mouseover target
+     document.getElementById("furniture").style.display = "block";
+ });
+ furnituretable.addEventListener("mouseleave", function() {
+     console.log("event taking check")
+     // highlight the mouseover target
+     document.getElementById("furniture").style.display = "none";
+ });
 
 
-// let accessoriestable = document.getElementById("AccessoriesItemDisplay");
-// accessoriestable.addEventListener("mouseover", function() {
-//     console.log("event taking check")
-//     // highlight the mouseover target
-//     document.getElementById("Accessories").style.display = "block";
-// });
-// accessoriestable.addEventListener("mouseleave", function() {
-//     console.log("event taking check")
-//     // highlight the mouseover target
-//     document.getElementById("Accessories").style.display = "none";
-// });
+let accessoriestable = document.getElementById("AccessoriesItemDisplay");
+ accessoriestable.addEventListener("mouseover", function() {
+     console.log("event taking check")
+     // highlight the mouseover target
+     document.getElementById("Accessories").style.display = "block";
+ });
+ accessoriestable.addEventListener("mouseleave", function() {
+     console.log("event taking check")
+     // highlight the mouseover target
+     document.getElementById("Accessories").style.display = "none";
+ });
 
 // let fashiontable = document.getElementById("FashionItemDisplay");
 // fashiontable.addEventListener("mouseover", function() {
