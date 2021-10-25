@@ -55,13 +55,42 @@
                     </div>
                     <div style="margin-left: 275px;">
                         <li class="nav-item">
-                            <a class="nav-link">LOGIN/REGISTER</a>
+                            <button type="button" class="nav-link login-button-style" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="">LOGIN/REGISTER</button>
+                    
                         </li>
                     </div>
                 </ul>
             </div>
         </div>
     </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">SIGN IN</h5>
+        <a>CLOSE</a>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Username or email *</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Password *</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+          <button></button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
     <div>
     <div class="menu-display-style">
     <div class="shop-menu-div-style" id="ShopMenu">
@@ -175,6 +204,9 @@
             </tbody>  
       </table>  
     </div>
+    <div>
+        
+    </div>
 </div>
         <div class="container">
         <div id="third-list">
@@ -196,137 +228,139 @@
                 <table>
                     <thead>
                         <tr>
-                            <th class="firstcolumntyle">SOFAS AND ARMCHAIRS</th>
-                            <th class="secondcolumnstyle">TABLES AND CHAIRS</th>
-                            <th class="secondcolumnstyle">KIDS FURNITURE</th>
-                            <th class="secondcolumnstyle">DINING</th>
+                            <th class="firstcolumntyle font-size-for-h">SOFAS AND ARMCHAIRS</th>
+                            <th class="secondcolumnstyle font-size-for-h">TABLES AND CHAIRS</th>
+                            <th class="secondcolumnstyle font-size-for-h">KIDS FURNITURE</th>
+                            <th class="secondcolumnstyle font-size-for-h">DINING</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="firstcolumntyle">Easy chairs</td>
-                            <td class="secondcolumnstyle">Console Tables</td>
-                            <td class="secondcolumnstyle">Kids Lighting</td>
-                            <td class="secondcolumnstyle">Dining Chairs</td>
+                            <td class="firstcolumntyle font-size-for-d">Easy chairs</td>
+                            <td class="secondcolumnstyle font-size-for-d">Console Tables</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Lighting</td>
+                            <td class="secondcolumnstyle font-size-for-d">Dining Chairs</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Small Sofas</td>
-                            <td class="secondcolumnstyle">Secretary Desks</td>
-                            <td class="secondcolumnstyle">Kids Textiles</td>
-                            <td class="secondcolumnstyle">Tea & Coffee</td>
+                            <td class="firstcolumntyle font-size-for-d">Small Sofas</td>
+                            <td class="secondcolumnstyle font-size-for-d">Secretary Desks</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Textiles</td>
+                            <td class="secondcolumnstyle font-size-for-d">Tea & Coffee</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Day Beds</td>
-                            <td class="secondcolumnstyle">Game Tables</td>
-                            <td class="secondcolumnstyle">Kids Bathroom</td>
-                            <td class="secondcolumnstyle">Table Linen</td>
+                            <td class="firstcolumntyle font-size-for-d">Day Beds</td>
+                            <td class="secondcolumnstyle font-size-for-d">Game Tables</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Bathroom</td>
+                            <td class="secondcolumnstyle font-size-for-d">Table Linen</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Footstools</td>
-                            <td class="secondcolumnstyle">Coffee Tables</td>
-                            <td class="secondcolumnstyle">Kids Bedroom</td>
-                            <td class="secondcolumnstyle">Glassware</td>
+                            <td class="firstcolumntyle font-size-for-d">Footstools</td>
+                            <td class="secondcolumnstyle font-size-for-d">Coffee Tables</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Bedroom</td>
+                            <td class="secondcolumnstyle font-size-for-d">Glassware</td>
                         </tr>
                     </tbody>
                 </table>
                 <table>
                     <thead>
                         <tr>
-                            <th class="firstcolumntyle">STORAGE SYSTEMS</th>
-                            <th class="sectablecol-style">CHESTS OF DRAWERS</th>
+                            <th class="firstcolumntyle font-size-for-h">STORAGE SYSTEMS</th>
+                            <th class="sectablecol-style font-size-for-h">CHESTS OF DRAWERS</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="firstcolumntyle">Shoe Cabinets</td>
-                            <td class="sectablecol-style">Hallway Units</td>
+                            <td class="firstcolumntyle font-size-for-d">Shoe Cabinets</td>
+                            <td class="sectablecol-style font-size-for-d">Hallway Units</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Trolleys</td>
-                            <td class="sectablecol-style">Display Cabinets</td>
+                            <td class="firstcolumntyle font-size-for-d">Trolleys</td>
+                            <td class="sectablecol-style font-size-for-d">Display Cabinets</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Hallway Units</td>
-                            <td class="sectablecol-style">Storage Walls</td>
+                            <td class="firstcolumntyle font-size-for-d">Hallway Units</td>
+                            <td class="sectablecol-style font-size-for-d">Storage Walls</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Screens</td>
-                            <td class="sectablecol-style">Sideboards</td>
+                            <td class="firstcolumntyle font-size-for-d">Screens</td>
+                            <td class="sectablecol-style font-size-for-d">Sideboards</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Storage Chests</td>
-                            <td class="sectablecol-style">Bookcases</td>
+                            <td class="firstcolumntyle font-size-for-d">Storage Chests</td>
+                            <td class="sectablecol-style font-size-for-d">Bookcases</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <div class="lightingstyle" id="Lighting">
+                <div class="light-table-content">
                 <table>
                     <thead>
                         <tr>
-                            <th class="firstcolumntyle">SOFAS AND ARMCHAIRS</th>
-                            <th class="secondcolumnstyle">TABLES AND CHAIRS</th>
-                            <th class="secondcolumnstyle">KIDS FURNITURE</th>
-                            <th class="secondcolumnstyle">DINING</th>
+                            <th class="firstcolumntyle font-size-for-h">SOFAS AND ARMCHAIRS</th>
+                            <th class="secondcolumnstyle font-size-for-h">TABLES AND CHAIRS</th>
+                            <th class="secondcolumnstyle font-size-for-h">KIDS FURNITURE</th>
+                            <th class="secondcolumnstyle font-size-for-h">DINING</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="firstcolumntyle">Easy chairs</td>
-                            <td class="secondcolumnstyle">Console Tables</td>
-                            <td class="secondcolumnstyle">Kids Lighting</td>
-                            <td class="secondcolumnstyle">Dining Chairs</td>
+                            <td class="firstcolumntyle font-size-for-d">Easy chairs</td>
+                            <td class="secondcolumnstyle font-size-for-d">Console Tables</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Lighting</td>
+                            <td class="secondcolumnstyle font-size-for-d">Dining Chairs</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Small Sofas</td>
-                            <td class="secondcolumnstyle">Secretary Desks</td>
-                            <td class="secondcolumnstyle">Kids Textiles</td>
-                            <td class="secondcolumnstyle">Tea & Coffee</td>
+                            <td class="firstcolumntyle font-size-for-d">Small Sofas</td>
+                            <td class="secondcolumnstyle font-size-for-d">Secretary Desks</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Textiles</td>
+                            <td class="secondcolumnstyle font-size-for-d">Tea & Coffee</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Day Beds</td>
-                            <td class="secondcolumnstyle">Game Tables</td>
-                            <td class="secondcolumnstyle">Kids Bathroom</td>
-                            <td class="secondcolumnstyle">Table Linen</td>
+                            <td class="firstcolumntyle font-size-for-d">Day Beds</td>
+                            <td class="secondcolumnstyle font-size-for-d">Game Tables</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Bathroom</td>
+                            <td class="secondcolumnstyle font-size-for-d">Table Linen</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Footstools</td>
-                            <td class="secondcolumnstyle">Coffee Tables</td>
-                            <td class="secondcolumnstyle">Kids Bedroom</td>
-                            <td class="secondcolumnstyle">Glassware</td>
+                            <td class="firstcolumntyle font-size-for-d">Footstools</td>
+                            <td class="secondcolumnstyle font-size-for-d">Coffee Tables</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Bedroom</td>
+                            <td class="secondcolumnstyle font-size-for-d">Glassware</td>
                         </tr>
                     </tbody>
                 </table>
                 <table>
                     <thead>
                         <tr>
-                            <th class="firstcolumntyle">STORAGE SYSTEMS</th>
-                            <th class="sectablecol-style">CHESTS OF DRAWERS</th>
+                            <th class="firstcolumntyle font-size-for-h">STORAGE SYSTEMS</th>
+                            <th class="sectablecol-style font-size-for-h">CHESTS OF DRAWERS</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="firstcolumntyle">Shoe Cabinets</td>
-                            <td class="sectablecol-style">Hallway Units</td>
+                            <td class="firstcolumntyle font-size-for-d">Shoe Cabinets</td>
+                            <td class="sectablecol-style font-size-for-d">Hallway Units</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Trolleys</td>
-                            <td class="sectablecol-style">Display Cabinets</td>
+                            <td class="firstcolumntyle font-size-for-d">Trolleys</td>
+                            <td class="sectablecol-style font-size-for-d">Display Cabinets</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Hallway Units</td>
-                            <td class="sectablecol-style">Storage Walls</td>
+                            <td class="firstcolumntyle font-size-for-d">Hallway Units</td>
+                            <td class="sectablecol-style font-size-for-d">Storage Walls</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Screens</td>
-                            <td class="sectablecol-style">Sideboards</td>
+                            <td class="firstcolumntyle font-size-for-d">Screens</td>
+                            <td class="sectablecol-style font-size-for-d">Sideboards</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Storage Chests</td>
-                            <td class="sectablecol-style">Bookcases</td>
+                            <td class="firstcolumntyle font-size-for-d">Storage Chests</td>
+                            <td class="sectablecol-style font-size-for-d">Bookcases</td>
                         </tr>
                     </tbody>
                 </table>
+            </div>
             </div>
             <div class="AccessoriesStyle" id="Accessories">
                 <div>
@@ -412,53 +446,57 @@
                 </div>
             </div>
             <div class="furnitureStyle" id="furniture">
+                <div class="fur-table-content">
                 <div>
-                    <img class="firstcolumntyle" src="assets/images/wood-product-paceholder-300x300_50_2_118x118.jpg" /> 
-                    <img class="secondcolumnstyle" src="assets/images/wood-product-paceholder-300x300_50_2_118x118.jpg" />
-                    <img class="secondcolumnstyle" src="assets/images/wood-product-paceholder-300x300_50_2_118x118.jpg" />
-                    <img class="secondcolumnstyle" src="assets/images/wood-product-paceholder-300x300_50_2_118x118.jpg" />
+                    <img  class="table-firstC" src="assets/images/wood-product-paceholder-300x300_50_2_118x118.jpg" /> 
+                    <img class="image-sizing" src="assets/images/wood-product-paceholder-300x300_50_2_118x118.jpg" />
+                    <img class="image-sizing" src="assets/images/wood-product-paceholder-300x300_50_2_118x118.jpg" />
+                    <img class="image-sizing" src="assets/images/wood-product-paceholder-300x300_50_2_118x118.jpg" />
                 </div>
                 <div>
                     <table>
                     <thead>
                         <tr>
-                            <th class="firstcolumntyle">SOFAS AND ARMCHAIRS</th>
-                            <th class="secondcolumnstyle">TABLES AND CHAIRS</th>
-                            <th class="secondcolumnstyle">KIDS FURNITURE</th>
-                            <th class="secondcolumnstyle">DINING</th>
+                            <th class="font-size-for-h table-firstC">CLOCK</th>
+                            <th class="font-size-for-h text-sizing">TABLETOP</th>
+                            <th class="font-size-for-h text-sizing3">KITCHEN</th>
+                            <th class="font-size-for-h text-sizing4">LIGHTING</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="firstcolumntyle">Easy chairs</td>
-                            <td class="secondcolumnstyle">Console Tables</td>
-                            <td class="secondcolumnstyle">Kids Lighting</td>
-                            <td class="secondcolumnstyle">Dining Chairs</td>
+                            <td class="font-size-for-d table-firstC">Easy chairs</td>
+                            <td class="font-size-for-d text-sizing">Console Tables</td>
+                            <td class="font-size-for-d text-sizing3">Kids Lighting</td>
+                            <td class="font-size-for-d text-sizing4">Dining Chairs</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Small Sofas</td>
-                            <td class="secondcolumnstyle">Secretary Desks</td>
-                            <td class="secondcolumnstyle">Kids Textiles</td>
-                            <td class="secondcolumnstyle">Tea & Coffee</td>
+                            <td class="font-size-for-d table-firstC">Small Sofas</td>
+                            <td class="font-size-for-d text-sizing">Secretary Desks</td>
+                            <td class="font-size-for-d text-sizing3">Kids Textiles</td>
+                            <td class="font-size-for-d text-sizing4">Tea & Coffee</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Day Beds</td>
-                            <td class="secondcolumnstyle">Game Tables</td>
-                            <td class="secondcolumnstyle">Kids Bathroom</td>
-                            <td class="secondcolumnstyle">Table Linen</td>
+                            <td class="font-size-for-d table-firstC">Day Beds</td>
+                            <td class="font-size-for-d text-sizing">Game Tables</td>
+                            <td class="font-size-for-d text-sizing3">Kids Bathroom</td>
+                            <td class="font-size-for-d text-sizing4">Table Linen</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Footstools</td>
-                            <td class="secondcolumnstyle">Coffee Tables</td>
-                            <td class="secondcolumnstyle">Kids Bedroom</td>
-                            <td class="secondcolumnstyle">Glassware</td>
+                            <td class="font-size-for-d table-firstC">Footstools</td>
+                            <td class="font-size-for-d text-sizing">Coffee Tables</td>
+                            <td class="font-size-for-d text-sizing3">Kids Bedroom</td>
+                            <td class="font-size-for-d text-sizing4">Glassware</td>
                         </tr>
                     </tbody>
                 </table>
                 </div>
-                <div>
-                    <p>You must select your brand attribute in Theme Settings -> Shop -> Brands</p>
+                <div class="fur-p-div1">
+                    <div class="fur-p-div2">
+                    <p class="font-size-for-d fur-p-style">You must select your brand attribute in Theme Settings -> Shop -> Brands</p>
+                   </div>
                 </div>
+            </div>
             </div>
             <div class="fashionStyle" id="Fashion">
                 <div class="fashionFirstdiv">
@@ -537,80 +575,84 @@
                </div>
             </div>
             <div class="clockStyle" id="Clock">
+                <div>
                 <table>
                     <thead>
                         <tr>
-                            <th class="firstcolumntyle">SOFAS AND ARMCHAIRS</th>
-                            <th class="secondcolumnstyle">TABLES AND CHAIRS</th>
-                            <th class="secondcolumnstyle">KIDS FURNITURE</th>
-                            <th class="secondcolumnstyle">DINING</th>
+                            <th class="firstcolumntyle font-size-for-h">SOFAS AND ARMCHAIRS</th>
+                            <th class="secondcolumnstyle font-size-for-h">TABLES AND CHAIRS</th>
+                            <th class="secondcolumnstyle font-size-for-h">KIDS FURNITURE</th>
+                            <th class="secondcolumnstyle font-size-for-h">DINING</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="firstcolumntyle">Easy chairs</td>
-                            <td class="secondcolumnstyle">Console Tables</td>
-                            <td class="secondcolumnstyle">Kids Lighting</td>
-                            <td class="secondcolumnstyle">Dining Chairs</td>
+                            <td class="firstcolumntyle font-size-for-d">Easy chairs</td>
+                            <td class="secondcolumnstyle font-size-for-d">Console Tables</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Lighting</td>
+                            <td class="secondcolumnstyle font-size-for-d">Dining Chairs</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Small Sofas</td>
-                            <td class="secondcolumnstyle">Secretary Desks</td>
-                            <td class="secondcolumnstyle">Kids Textiles</td>
-                            <td class="secondcolumnstyle">Tea & Coffee</td>
+                            <td class="firstcolumntyle font-size-for-d">Small Sofas</td>
+                            <td class="secondcolumnstyle font-size-for-d">Secretary Desks</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Textiles</td>
+                            <td class="secondcolumnstyle font-size-for-d">Tea & Coffee</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Day Beds</td>
-                            <td class="secondcolumnstyle">Game Tables</td>
-                            <td class="secondcolumnstyle">Kids Bathroom</td>
-                            <td class="secondcolumnstyle">Table Linen</td>
+                            <td class="firstcolumntyle font-size-for-d">Day Beds</td>
+                            <td class="secondcolumnstyle font-size-for-d">Game Tables</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Bathroom</td>
+                            <td class="secondcolumnstyle font-size-for-d">Table Linen</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Footstools</td>
-                            <td class="secondcolumnstyle">Coffee Tables</td>
-                            <td class="secondcolumnstyle">Kids Bedroom</td>
-                            <td class="secondcolumnstyle">Glassware</td>
+                            <td class="firstcolumntyle font-size-for-d">Footstools</td>
+                            <td class="secondcolumnstyle font-size-for-d">Coffee Tables</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Bedroom</td>
+                            <td class="secondcolumnstyle font-size-for-d">Glassware</td>
                         </tr>
                     </tbody>
                 </table>
                 <table>
                     <thead>
                         <tr>
-                            <th class="firstcolumntyle">SOFAS AND ARMCHAIRS</th>
-                            <th class="secondcolumnstyle">TABLES AND CHAIRS</th>
-                            <th class="secondcolumnstyle">KIDS FURNITURE</th>
-                            <th class="secondcolumnstyle">DINING</th>
+                            <th class="firstcolumntyle font-size-for-h">SOFAS AND ARMCHAIRS</th>
+                            <th class="secondcolumnstyle font-size-for-h">TABLES AND CHAIRS</th>
+                            <th class="secondcolumnstyle font-size-for-h">KIDS FURNITURE</th>
+                            <th class="secondcolumnstyle font-size-for-h">DINING</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="firstcolumntyle">Easy chairs</td>
-                            <td class="secondcolumnstyle">Console Tables</td>
-                            <td class="secondcolumnstyle">Kids Lighting</td>
-                            <td class="secondcolumnstyle">Dining Chairs</td>
+                            <td class="firstcolumntyle font-size-for-d">Easy chairs</td>
+                            <td class="secondcolumnstyle font-size-for-d">Console Tables</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Lighting</td>
+                            <td class="secondcolumnstyle font-size-for-d">Dining Chairs</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Small Sofas</td>
-                            <td class="secondcolumnstyle">Secretary Desks</td>
-                            <td class="secondcolumnstyle">Kids Textiles</td>
-                            <td class="secondcolumnstyle">Tea & Coffee</td>
+                            <td class="firstcolumntyle font-size-for-d">Small Sofas</td>
+                            <td class="secondcolumnstyle font-size-for-d">Secretary Desks</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Textiles</td>
+                            <td class="secondcolumnstyle font-size-for-d">Tea & Coffee</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Day Beds</td>
-                            <td class="secondcolumnstyle">Game Tables</td>
-                            <td class="secondcolumnstyle">Kids Bathroom</td>
-                            <td class="secondcolumnstyle">Table Linen</td>
+                            <td class="firstcolumntyle font-size-for-d">Day Beds</td>
+                            <td class="secondcolumnstyle font-size-for-d">Game Tables</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Bathroom</td>
+                            <td class="secondcolumnstyle font-size-for-d">Table Linen</td>
                         </tr>
                         <tr>
-                            <td class="firstcolumntyle">Footstools</td>
-                            <td class="secondcolumnstyle">Coffee Tables</td>
-                            <td class="secondcolumnstyle">Kids Bedroom</td>
-                            <td class="secondcolumnstyle">Glassware</td>
+                            <td class="firstcolumntyle font-size-for-d">Footstools</td>
+                            <td class="secondcolumnstyle font-size-for-d">Coffee Tables</td>
+                            <td class="secondcolumnstyle font-size-for-d">Kids Bedroom</td>
+                            <td class="secondcolumnstyle font-size-for-d">Glassware</td>
                         </tr>
                     </tbody>
 
                 </table>
+                <div>
                  <p>You must select your brand attribute in Theme Settings -> Shop -> Brands</p>
+             </div>
+             </div>
             </div>
             <div class="toysStyle" id="Toys">
                 <table>
@@ -916,107 +958,14 @@
         </div>
     </div>
    
-     <script>
+     <script src="assets/js/script.js"></script>
 
-     let cookingtable = document.getElementById("CookingItemDisplay");
-     cookingtable.addEventListener("mouseover", function() {
-        console.log("event taking check")
-  // highlight the mouseover target
-     document.getElementById("cooking").style.display = "block";
-     });
-     cookingtable.addEventListener("mouseleave", function() {
-        console.log("event taking check")
-  // highlight the mouseover target
-     document.getElementById("cooking").style.display = "none";
-     });
+     <script src="assets/js/bootstrap.bundle.min.js"></script>
+<!--      <script src="assets/js/bootstrap.min.js"></script> -->
 
-
-      let furnituretable = document.getElementById("FurnitureItemDisplay");
-     furnituretable.addEventListener("mouseover", function() {
-        console.log("event taking check")
-  // highlight the mouseover target
-     document.getElementById("furniture").style.display = "block";
-     });
-     furnituretable.addEventListener("mouseleave", function() {
-        console.log("event taking check")
-  // highlight the mouseover target
-     document.getElementById("furniture").style.display = "none";
-     });
-
-
-     let accessoriestable = document.getElementById("AccessoriesItemDisplay");
-     accessoriestable.addEventListener("mouseover", function() {
-        console.log("event taking check")
-  // highlight the mouseover target
-     document.getElementById("Accessories").style.display = "block";
-     });
-     accessoriestable.addEventListener("mouseleave", function() {
-        console.log("event taking check")
-  // highlight the mouseover target
-     document.getElementById("Accessories").style.display = "none";
-     });
-
-     let fashiontable = document.getElementById("FashionItemDisplay");
-     fashiontable.addEventListener("mouseover", function() {
-        console.log("event taking check")
-   // highlight the mouseover target
-      document.getElementById("Fashion").style.display = "block";
-     });
-      fashiontable.addEventListener("mouseleave", function() {
-        console.log("event taking check")
-   // highlight the mouseover target
-     document.getElementById("Fashion").style.display = "none";
-      });
-
-    let clockstable = document.getElementById("ClocksItemDisplay");
-      clockstable.addEventListener("mouseover", function() {
-         console.log("event taking check")
-   // highlight the mouseover target
-      document.getElementById("Clock").style.display = "block";
-      });
-      clockstable.addEventListener("mouseleave", function() {
-         console.log("event taking check")
-   // highlight the mouseover target
-      document.getElementById("Clock").style.display = "none";
-      });
-
-       let lightingtable = document.getElementById("LightingItemDisplay");
-      lightingtable.addEventListener("mouseover", function() {
-         console.log("event taking check")
-   // highlight the mouseover target
-      document.getElementById("Lighting").style.display = "block";
-      });
-      lightingtable.addEventListener("mouseleave", function() {
-         console.log("event taking check")
-   // highlight the mouseover target
-      document.getElementById("Lighting").style.display = "none";
-      });
-
-       let toystable = document.getElementById("ToysItemDisplay");
-      toystable.addEventListener("mouseover", function() {
-         console.log("event taking check")
-   // highlight the mouseover target
-      document.getElementById("Toys").style.display = "block";
-      });
-      toystable.addEventListener("mouseleave", function() {
-         console.log("event taking check")
-   // highlight the mouseover target
-      document.getElementById("Toys").style.display = "none";
-      });
-
-      let shopicon = document.getElementById("ShopIcon");
-      shopicon.addEventListener("mouseover", function() {
-         console.log("event taking check")
-   // highlight the mouseover target
-      document.getElementById("ShopMenu").style.display = "block";
-      });
-      shopicon.addEventListener("mouseleave", function() {
-         console.log("event taking check")
-   // highlight the mouseover target
-      document.getElementById("ShopMenu").style.display = "none";
-      });
-
-    </script> 
+     
 </body>
+
+
 
 </html>
