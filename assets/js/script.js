@@ -84,14 +84,14 @@ let accessoriestable = document.getElementById("AccessoriesItemDisplay");
 //     document.getElementById("Toys").style.display = "none";
 // });
 
-// let shopicon = document.getElementById("ShopIcon");
-// shopicon.addEventListener("mouseover", function() {
-//     console.log("event taking check")
-//     // highlight the mouseover target
-//     document.getElementById("ShopMenu").style.display = "block";
-// });
-// shopicon.addEventListener("mouseleave", function() {
-//     console.log("event taking check")
-//     // highlight the mouseover target
-//     document.getElementById("ShopMenu").style.display = "none";
-// });
+let shopicon = document.getElementById("ShopIcon");
+shopicon.addEventListener("mouseover", function() {
+    console.log("event taking check")
+    // highlight the mouseover target
+    document.getElementById("ShopMenu").style.display = "block";
+});
+shopicon.addEventListener("mouseleave", function() {
+    console.log("event taking check")
+    // highlight the mouseover target
+    document.getElementById("ShopMenu").style.display = "none";
+});

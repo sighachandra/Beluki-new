@@ -1,6 +1,6 @@
 .topTab {
     height: 40px;
-    background-color: #da3f3c;
+    background-color: #ffc107;
     position: relative;
 }
 
@@ -76,10 +76,11 @@
     display: flex;
     flex-direction: row;
     padding-top: 17px;
+    padding-bottom: 17px;
 }
 
 #firstItemstyle {
-    background-color: #da3f3c;
+    background-color: #ffc107;
     height: 50px;
     color: white;
 }
@@ -104,12 +105,14 @@ table tr {
     height: 40px;
 }
 
+.page-splitting{
+     border-top: 1px solid #ece0e0;
+
+}
 
 
 
-
-
-.placeholder {
+.placeholder1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -119,12 +122,34 @@ table tr {
 .img-thumbnail {
     border: none;
     border-radius: 0px;
+    padding-left: 30px;
+}
+.first-image-styling{
+    margin-top: 40px;
 }
 
 .lastdivstyle {
     background-color: black;
     color: white;
     display: flex;
+
+}
+.welcome-styling{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.cover-image{
+     background-image: url("../../assets/images/photo-1573676564795-be0f1e7396dc_850x250.jpeg");
+     background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+}
+.cover-description{
+    position: absolute;
+    color: white;
 }
 
 .signup-Box-style {
@@ -153,7 +178,11 @@ table tr {
     border: none !important;
 }
 
-
+.furnitureStyle{
+    display: none;
+    border: 1px solid #ece0e0;
+   
+}
 
 .toysStyle {
     display: none;
@@ -199,6 +228,16 @@ table tr {
 	
 	background-color: white;
 	width: 100%;
+}
+.category-menu-display{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    right: 187px;
+
+}
+.first-animation-styling{
+    padding-left: 30px;
 }
 .login-button-style{
     background-color: white;
@@ -261,11 +300,7 @@ table tr {
 #FurnitureItemDisplay:hover {
     background-color: #F9F9F9;
 }
-.furnitureStyle {
-    display: none;
-   border: 1px solid #ece0e0;
-   border-left: 0px;
-}
+
 /*furniture table styling end*/
 /*cooking table styling begining*/
 #CookingItemDisplay:hover {
@@ -275,6 +310,8 @@ table tr {
     background-color: black;
     color: white;
     display: none;
+  padding-right: 30px;
+  margin-right: 12px;
 }
 /*cooking end*/
 /*lighting table style start*/
@@ -315,10 +352,10 @@ table tr {
 }
 
 .AccessoriesStyle {
-    width: 70%;
+    
     display: flex;
      border: 1px solid #ece0e0;
-   border-left: 0px;
+   
     display: none;
 }
 .accesories-table-content{
