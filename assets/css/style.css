@@ -170,7 +170,7 @@ table tr {
 }
 
 .signup-Box-style {
-    border: 2px solid grey;
+    border: 2px solid #ecedec;
     height: 94%;
     width: 80%;
     margin-top: 14px;
@@ -179,6 +179,103 @@ table tr {
 .signup-box-content{
     margin-top: 10px;
     padding-top: 10px;
+}
+.border-style-div{
+    border-top: 1px solid #ece0e0;
+    border-bottom: 1px solid black;
+}
+.last-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.fp-p-styling{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+.fp-td-style{
+    display: flex;
+}
+.button-signIn-style{
+    width: 320px;
+    height : 44px;
+    background-color: #da3c3c;
+    border: none;
+    color: white;
+    margin-top: 7px;
+}
+.modal-label{
+    color: #464646;
+    font-weight: 400;
+    font-size: 13px;
+}
+.modal-label1{
+    color: #464646;
+     font-weight: 400;
+      font-size: 14px;
+      border-bottom: 2px solid black;
+}
+.required{
+    color: #E01020;
+    line-height: 1;
+    font-size: 16px;
+    border: none;
+    margin-left: 2px;
+}
+.num-style-span{
+    color: #E01020;
+}
+.btn-close{
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    opacity: 12;
+}
+.close-btn{
+    background-color: transparent;
+    border: none;
+    font-size: small !important;
+    outline: none;
+    position: absolute;
+    top: 21px;
+    right: 26px;
+}
+.textarea-size{
+    height: 24px ;
+}
+.form-check{
+    display: flex;
+    margin-top: 20px;
+}
+.modal1-body{
+    position: relative;
+    
+    flex-shrink: 1;
+    flex-basis: auto;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+.modal-footer{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.footer-div{
+    height: 40px;
+    width: 25px;
+    border: 2px solid #ece0e0;
+}
+.form-check-label{
+     position: absolute;
+    left: 38px;
+}
+.form-check-input{
+    width: 14px;
+    height: 14px;
+    background-color: #dedede;
 }
 .d-flex{
     padding-left: 63px;
@@ -414,4 +511,10 @@ table tr {
 .font-size-for-d{
     font-size: smaller;
     color: #808080e0;
+}
+.last-div-p{
+    color: #ffc107;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 0px;
 }
