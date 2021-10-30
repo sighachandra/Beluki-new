@@ -116,14 +116,34 @@ table tr {
 .placeholder1 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    
     background-color: white;
+}
+.img2-style{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.caption-style{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.add-to-cart-relative{
+    positon: relative;
+}
+.add-to-cart-absolute{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 34px;
 }
 
 .img-thumbnail {
     border: none;
     border-radius: 0px;
-    padding-left: 30px;
+    
 }
 
 .first-image-styling {
@@ -697,6 +717,60 @@ table tr {
 .list-group-item1{
     background-color: black !important;
     border: none !important;
+}
+.div-style-li{
+    border-bottom: 2px solid #ecedec;
+    margin-left: 17px;
+    width: 245px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.first-img-im1-text-style{
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    right: 0px;
+    bottom: 0px;
+    left: 0;
+    z-index: 2;
+    padding:30px ;
+}
+.first-img-im2-text-style{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    padding: 30px;
+}
+.first-img-im3-text-style{
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    padding: 30px;
+}
+.list-group-item2{
+    border: none !important;
+}
+.img1-p-div{
+    position: relative;
+
 }
 @media (max-width: 768px) {
     .welcome {
