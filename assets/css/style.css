@@ -111,7 +111,9 @@ table tr {
 
 }
 
-
+.ul-last-des{
+    padding-left: 60px;
+}
 
 .placeholder1 {
     display: flex;
@@ -128,8 +130,23 @@ table tr {
     flex-direction: column;
     text-align: center;
 }
-.add-to-cart-relative{
-    positon: relative;
+.add-to-cart-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 17%;
+    height: 45%;
+    background-color: white;
+    margin-right: 12px;
+    margin-top: 12px;
+    z-index: 2;
+}
+.box-square{
+    height: 21px;
+    width: 12px;
+    margin-left: 13px;
+    border: 1px solid;
+    margin-top: 12px;
 }
 .add-to-cart-absolute{
     position: absolute;
@@ -138,6 +155,9 @@ table tr {
     background-color: black;
     color: white;
     height: 34px;
+}
+.col-md-3re{
+    width: 20% !important;
 }
 
 .img-thumbnail {
@@ -165,7 +185,7 @@ table tr {
 }
 
 .cover-image {
-    background-image: url("../../assets/images/photo-1573676564795-be0f1e7396dc_850x250.jpeg");
+    background-image: url("../../assets/images/black-friday-elements-assortment.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -176,17 +196,53 @@ table tr {
 .cover-description {
     position: absolute;
     color: white;
-    top: 32px;
-    right: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #00000057;
+     
 }
 
+
 .cover-descriptio2 {
-    position: absolute;
-    font-size: smaller;
-    color: #dcd4d4e0;
-    bottom: 14px;
-    text-align: center;
-    font-size: 15px;
+   display: flex;
+   position: absolute;
+   align-items: center;
+   justify-content: flex-end;
+   flex-direction: column;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 2;
+   background-color: #00000047;
+
+}
+.avatar{
+     height: 60px;
+  width: 60px;
+  
+  border-radius: 50%;
+    
+
+}
+.avatar-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.avatar-b-p{
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 13px;
+    font-size: small;
+    color: white;
 }
 
 .cover-div {
@@ -194,6 +250,15 @@ table tr {
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
+}
+.hovering-style{
+    
+}
+.hovering-display{
+    display: none;
+}
+.hovering-style:hover .hovering-display{
+    display: block;
 }
 
 .signup-Box-style {
@@ -207,6 +272,8 @@ table tr {
 .signup-box-content {
     margin-top: 10px;
     padding-top: 10px;
+    
+
 }
 
 .border-style-div {
@@ -710,6 +777,8 @@ table tr {
 }
 .welcome-des{
      color: #808080e0;
+      margin-left: 357px;
+    margin-right: 357px;
 }
 .welcome-color{
     color: #ffc107
@@ -771,6 +840,43 @@ table tr {
 .img1-p-div{
     position: relative;
 
+}
+.cat-display{
+     display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-color: #f5f5f59c;
+    font-size: x-large;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+ /*fonts styling*/
+ .summer-new{
+    color: red;
+    margin-bottom: 4px;
+ }
+ .shop-now{
+    border-bottom: 2px solid red;
+    font-size: smaller;
+ }
+ .second-text{
+    margin-bottom: 0px;
+ }
+.first-img-caption{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.first-img-caption2{
+    font-size: smaller;
+    color: #cfd0cf;
+    padding-bottom: 20px;
 }
 @media (max-width: 768px) {
     .welcome {
@@ -878,5 +984,20 @@ table tr {
     height: 40px;
     margin-left: 75px;
     margin-top: 15px;
+ }
+ .col-md-3re{
+    width: 50% !important;
+ }
+ .welcome-des{
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+ .avatar-b-p{
+    width: 237px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+ }
+ .cat-style-p{
+    padding-top: 12px;
  }
 }
