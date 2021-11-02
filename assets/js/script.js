@@ -95,3 +95,13 @@ shopicon.addEventListener("mouseleave", function() {
     // highlight the mouseover target
     document.getElementById("ShopMenu").style.display = "none";
 });
+let menuList = document.getElementById("menulist");
+
+function listingItemsmenu(){
+    menuList.style.display = "block";
+
+}
+let categoryList = document.getElementById("categorylist");
+function listingItemCategory(){
+   categoryList.style.display = "block"; 
+}

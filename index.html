@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="assets/css/splide.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
@@ -12,7 +13,7 @@
     <div class="container-fluid">
         <div class="topTab">
             <div class="welcome">
-                <p class="topTabP">WELCOME TO GENSERVE MOBILES</p>
+                <p class="topTabP"></p>
             </div>
             <div class="nav-itemsStyle">
                 <ul class="nav justify-content-end">
@@ -33,7 +34,9 @@
             <div class="container1">
                 <div class="second-top-menu">
                     <div class="second-top-menu-div">
-                        <div class="handburger-style"><i class="fas fa-bars"></i></div>
+                        <div class="handburger-style"><i class="fas fa-bars"></i><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                Launch demo modal
+                            </button></div>
                         <div class="logo-style-m"><img src="assets/images/wood-logo-dark (2).svg" alt="" class="logo"></div>
                     </div>
                 </div>
@@ -214,13 +217,13 @@
             </div>
             <div class="container">
                 <div id="third-list">
-                    <div class="category-icon-m">
+                     <div class="category-icon-m">
                         <ul class="list-group">
                             <li class="list-group-item" id="firstItemstyle">CATEGORIES</li>
                             <li class="list-group-item" id="FurnitureItemDisplay">Men</li>
                             <li class="list-group-item" id="CookingItemDisplay">Women</li>
                             <li class="list-group-item" id="AccessoriesItemDisplay">kids</li>
-                            <!--  <li class="list-group-item" id="FashionItemDisplay">Fashion</li>
+                             <!-- <li class="list-group-item" id="FashionItemDisplay">Fashion</li>
                 <li class="list-group-item" id="ClocksItemDisplay">Clocks</li>
                 <li class="list-group-item" id="LightingItemDisplay">Lighting</li>
                 <li class="list-group-item" id="ToysItemDisplay">Toys</li>
@@ -229,6 +232,43 @@
                 <li class="list-group-item">Electronics</li>
                 <li class="list-group-item">Car</li> -->
                         </ul>
+                    </div>
+                    <div>
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-fullscreen">
+                                <div class="modal-content">
+                                    <div class="modal-header" style="border-bottom: 0px;">
+                                        <p class="modal-title" id="exampleModalLabel" style="color: #989898;">search for products</p>
+                                    </div>
+                                    <div class="modal-body m-body">
+                                        <div class="b-display">
+                                        <button class="m-button" onclick="listingItemsmenu()">MENU</button>
+                                        <button class="m-button" onclick="listingItemCategory()">CATEGORY</button>
+                                        </div>
+                                        <ul class="list-group w-100"  id="menulist">
+                                            <li class="list-group-item m-list-item w-100">HOME</li>
+                                            <li class="list-group-item m-list-item w-100">BLOG</li>
+                                            <li class="list-group-item m-list-item w-100">PORTFOLIO</li>
+                                            <li class="list-group-item m-list-item w-100">WISHLIST</li>
+                                            <li class="list-group-item m-list-item w-100">LOGIN/REGISTER</li>
+                                        </ul>
+                                    
+                                    
+                                        <ul class="list-group w-100" style="display: none;" id="categorylist">
+                                            <li class="list-group-item m-list-item w-100">Men</li>
+                                            <li class="list-group-item m-list-item w-100">Women</li>
+                                            <li class="list-group-item m-list-item w-100">Kids</li>
+                                           
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer" style="padding: 0px;">
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="category-menu-display">
                         <!-- Begining of cooking table  -->
@@ -789,132 +829,140 @@
                     </div>
                     <!-- end of this section -->
                     <!-- Begining of the second image(200x250) section -->
-                    <div class="row">
-                        <div class="img2-style col-md-3 col-sm-4 col-6">
-                            <div class="w-100 hovering-style" style="position: relative;">
-                                <img class="w-100" src="assets/images/new-img.300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
+                    <div class="row splide" id="stylingfirst">
+                        <div class="splide__track">
+                            <div class="splide__list margin-style">
+                                <div class="img2-style col-md-3 col-sm-4 col-6 splide__slide">
+                                    <div class="w-100 hovering-style" style="position: relative;">
+                                        <img class="w-100" src="assets/images/new-img.300x300.jpg" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
+                                        <div class="add-to-cart-box hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">White Bow Back</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="caption-style">
-                                <span class="first-img-caption">White Bow Back</span>
-                                <span class="first-img-caption2">Fashion</span>
-                            </div>
-                        </div>
-                        <div class="img2-style col-md-3 col-sm-4 col-6">
-                            <div class="w-100 hovering-style" style="position: relative;">
-                                <img class="w-100" src="assets/images/new-img.300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
+                                <div class="img2-style col-md-3 col-sm-4 col-6 splide__slide">
+                                    <div class="w-100 hovering-style" style="position: relative;">
+                                        <img class="w-100" src="assets/images/new-img.300x300.jpg" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
+                                        <div class="add-to-cart-box hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">Wlouse Mind Floral</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="caption-style">
-                                <span class="first-img-caption">Wlouse Mind Floral</span>
-                                <span class="first-img-caption2">Fashion</span>
-                            </div>
-                        </div>
-                        <div class="img2-style col-md-3 col-sm-4 col-6">
-                            <div class="w-100 hovering-style" style="position: relative;">
-                                <img class="w-100" src="assets/images/new-img.300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
+                                <div class="img2-style col-md-3 col-sm-4 col-6 splide__slide">
+                                    <div class="w-100 hovering-style" style="position: relative;">
+                                        <img class="w-100" src="assets/images/new-img.300x300.jpg" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
+                                        <div class="add-to-cart-box hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">Wuller Bust Shirt</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="caption-style">
-                                <span class="first-img-caption">Wuller Bust Shirt</span>
-                                <span class="first-img-caption2">Fashion</span>
-                            </div>
-                        </div>
-                        <div class="img2-style col-md-3 col-sm-4 col-6">
-                            <div class="w-100 hovering-style" style="position: relative;">
-                                <img class="w-100" src="assets/images/new-img.300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
+                                <div class="img2-style col-md-3 col-sm-4 col-6 splide__slide">
+                                    <div class="w-100 hovering-style" style="position: relative;">
+                                        <img class="w-100" src="assets/images/new-img.300x300.jpg" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
+                                        <div class="add-to-cart-box hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">Qheck Shirt with Ruffle</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="caption-style">
-                                <span class="first-img-caption">Qheck Shirt with Ruffle</span>
-                                <span class="first-img-caption2">Fashion</span>
                             </div>
                         </div>
                     </div>
                     <!-- end of this section -->
                     <!-- Begining of the third image(200x250) secton -->
-                    <div class="row">
-                        <div class="img2-style col-md-3 col-sm-4 col-6">
-                            <div class="w-100 hovering-style" style="position: relative;">
-                                <img class="w-100" src="assets/images/new-img.300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
+                    <div class="row splide" id="styling">
+                        <div class="splide__track">
+                            <div class="splide__list margin-style">
+                                <div class="img2-style col-md-3 col-sm-4 col-6 splide__slide">
+                                    <div class="w-100 hovering-style" style="position: relative;">
+                                        <img class="w-100" src="assets/images/new-img.300x300.jpg" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
+                                        <div class="add-to-cart-box hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">Whirt with Lace Inserts</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="caption-style">
-                                <span class="first-img-caption">Whirt with Lace Inserts</span>
-                                <span class="first-img-caption2">Fashion</span>
+                                <div class="img2-style col-md-3 col-sm-4 col-6 splide__slide">
+                                    <div class="w-100 hovering-style" style="position: relative">
+                                        <img class="w-100" src="assets/images/new-img.300x300.jpg" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
+                                        <div class="add-to-cart-box hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">Zissguided Bardot Puff</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
+                                </div>
+                                <div class="img2-style col-md-3 col-sm-4 col-6 splide__slide">
+                                    <div class="w-100 hovering-style" style="position: relative;">
+                                        <img class="w-100" src="assets/images/new-img.300x300.jpg" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
+                                        <div class="add-to-cart-box hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">Moda Fluted Top</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
+                                </div>
+                                <div class="img2-style col-md-3 col-sm-4 col-6 splide__slide">
+                                    <div class="w-100 hovering-style" style="position: relative;">
+                                        <img class="w-100" src="assets/images/new-img.300x300.jpg" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
+                                        <div class="add-to-cart-box hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">Wtripe with Bow Back</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
+                                </div>
+                                <!-- End of this section -->
                             </div>
                         </div>
-                        <div class="img2-style col-md-3 col-sm-4 col-6">
-                            <div class="w-100 hovering-style" style="position: relative">
-                                <img class="w-100" src="assets/images/new-img.300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                </div>
-                            </div>
-                            <div class="caption-style">
-                                <span class="first-img-caption">Zissguided Bardot Puff</span>
-                                <span class="first-img-caption2">Fashion</span>
-                            </div>
-                        </div>
-                        <div class="img2-style col-md-3 col-sm-4 col-6">
-                            <div class="w-100 hovering-style" style="position: relative;">
-                                <img class="w-100" src="assets/images/new-img.300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                </div>
-                            </div>
-                            <div class="caption-style">
-                                <span class="first-img-caption">Moda Fluted Top</span>
-                                <span class="first-img-caption2">Fashion</span>
-                            </div>
-                        </div>
-                        <div class="img2-style col-md-3 col-sm-4 col-6">
-                            <div class="w-100 hovering-style" style="position: relative;">
-                                <img class="w-100" src="assets/images/new-img.300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                </div>
-                            </div>
-                            <div class="caption-style">
-                                <span class="first-img-caption">Wtripe with Bow Back</span>
-                                <span class="first-img-caption2">Fashion</span>
-                            </div>
-                        </div>
-                        <!-- End of this section -->
                     </div>
                     <!-- End of this section -->
                     <!-- Begining of the second welcome section             -->
@@ -928,25 +976,25 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-4 col-6 cat-style-p">
                             <div class="w-100" style="position: relative;">
-                                <img class="w-100" src="assets/images/wood-product-paceholder-300x300.jpg" />
+                                <img class="w-100" src="assets/images/wallpaper2you_41.png" />
                                 <div class="w-100 cat-display"><span>TOYS</span></div>
                             </div>
                         </div>
                         <div class=" col-md-3 col-sm-4 col-6 cat-style-p">
                             <div class="w-100" style="position: relative;">
-                                <img class="w-100" src="assets/images/wood-product-paceholder-300x300.jpg" />
+                                <img class="w-100" src="assets/images/wallpaper2you_41.png" />
                                 <div class="w-100 cat-display"><span>LIGHTING</span></div>
                             </div>
                         </div>
                         <div class=" col-md-3 col-sm-4 col-6 cat-style-p">
                             <div class="w-100" style="position: relative;">
-                                <img class="w-100" src="assets/images/wood-product-paceholder-300x300.jpg" />
+                                <img class="w-100" src="assets/images/wallpaper2you_41.png" />
                                 <div class="w-100 cat-display"><span>FURNITURE</span></div>
                             </div>
                         </div>
                         <div class=" col-md-3 col-sm-4 col-6 cat-style-p">
                             <div class="w-100" style="position: relative;">
-                                <img class="w-100" src="assets/images/wood-product-paceholder-300x300.jpg" />
+                                <img class="w-100" src="assets/images/wallpaper2you_41.png" />
                                 <div class="w-100 cat-display"><span>COOKING</span></div>
                             </div>
                         </div>
@@ -960,107 +1008,114 @@
                     </div>
                     <!-- End of this section -->
                     <!-- Beginig of fifth image section -->
-                    <div class="row">
-                        <div class="col-md-3 col-sm-4 col-6 col-md-3re">
-                            <div class="w-100 hovering-style" style="position: relative;">
-                                <img class="w-100" src="assets/images/wood-product-paceholder-300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display">
-                                    <span>ADD TO CART</span>
+                    <div class="row splide" id="stylingthird">
+                        <div class="splide__track">
+                            <div class="splide__list margin-style" id="fifthimg">
+                                <div class="col-md-3 col-sm-4 col-6 col-md-3re splide__slide">
+                                    <div class="w-100 hovering-style" style="position: relative;">
+                                        <img class="w-100" src="assets/images/wallpaper2you_41 (1).png" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display">
+                                            <span>ADD TO CART</span>
+                                        </div>
+                                        <div class="add-to-cart-box1 hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">Qlouse with Contrast</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
                                 </div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
+                                <div class=" col-md-3 col-sm-4 col-6 col-md-3re splide__slide">
+                                    <div class="w-100 hovering-style" style="position: relative;">
+                                        <img class="w-100" src="assets/images/wallpaper2you_41 (1).png" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
+                                        <div class="add-to-cart-box1 hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">Zop with Open Back</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
                                 </div>
-                                
+                                <div class=" col-md-3 col-sm-4 col-6 col-md-3re splide__slide">
+                                    <div class="w-100 hovering-style" style="position: relative;">
+                                        <img class="w-100" src="assets/images/wallpaper2you_41 (1).png" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display"><span>SELECT OPTIONS</span></div>
+                                        <div class="add-to-cart-box1 hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">Wtripe with Bow Back</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
+                                </div>
+                                <div class=" col-md-3 col-sm-4 col-6 col-md-3re splide__slide">
+                                    <div class="w-100 hovering-style" style="position: relative;">
+                                        <img class="w-100" src="assets/images/wallpaper2you_41 (1).png" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
+                                        <div class="add-to-cart-box1 hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">Moda Fluted Top</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
+                                </div>
+                                <div class=" col-md-3 col-sm-4 col-6 col-md-3re splide__slide">
+                                    <div class="w-100 hovering-style" id="imgnd" style="position: relative;">
+                                        <img class="w-100" src="assets/images/wallpaper2you_41 (1).png" />
+                                        <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
+                                        <div class="add-to-cart-box1 hovering-display">
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                            <div class="box-square"></div>
+                                        </div>
+                                    </div>
+                                    <div class="caption-style">
+                                        <span class="first-img-caption">Zissguided Bardot Puff</span>
+                                        <span class="first-img-caption2">Fashion</span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="caption-style">
-                                    <span class="first-img-caption">Qlouse with Contrast</span>
-                                    <span class="first-img-caption2">Fashion</span>
-                                </div>
-                        </div>
-                        <div class=" col-md-3 col-sm-4 col-6 col-md-3re">
-                            <div class="w-100 hovering-style" style="position: relative;">
-                                <img class="w-100" src="assets/images/wood-product-paceholder-300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                </div>
-                               
-                            </div>
-                            <div class="caption-style">
-                                    <span class="first-img-caption">Zop with Open Back</span>
-                                    <span class="first-img-caption2">Fashion</span>
-                                </div>
-                        </div>
-                        <div class=" col-md-3 col-sm-4 col-6 col-md-3re">
-                            <div class="w-100 hovering-style" style="position: relative;">
-                                <img class="w-100" src="assets/images/wood-product-paceholder-300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display"><span>SELECT OPTIONS</span></div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                </div>
-                                
-                            </div>
-                            <div class="caption-style">
-                                    <span class="first-img-caption">Wtripe with Bow Back</span>
-                                    <span class="first-img-caption2">Fashion</span>
-                                </div>
-                        </div>
-                        <div class=" col-md-3 col-sm-4 col-6 col-md-3re">
-                            <div class="w-100 hovering-style" style="position: relative;">
-                                <img class="w-100" src="assets/images/wood-product-paceholder-300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                </div>
-                                
-                            </div>
-                            <div class="caption-style">
-                                    <span class="first-img-caption">Moda Fluted Top</span>
-                                    <span class="first-img-caption2">Fashion</span>
-                                </div>
-                        </div>
-                        <div class=" col-md-3 col-sm-4 col-6 col-md-3re">
-                            <div class="w-100 hovering-style" id="imgnd" style="position: relative;">
-                                <img class="w-100" src="assets/images/wood-product-paceholder-300x300.jpg" />
-                                <div class="w-100 add-to-cart-absolute hovering-display"><span>ADD TO CART</span></div>
-                                <div class="add-to-cart-box hovering-display">
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                    <div class="box-square"></div>
-                                </div>
-                               
-                            </div>
-                            <div class="caption-style">
-                                    <span class="first-img-caption">Zissguided Bardot Puff</span>
-                                    <span class="first-img-caption2">Fashion</span>
-                                </div>
                         </div>
                     </div>
                     <!-- End of this section  -->
                     <!-- Begining of cover image -->
                     <div class="cover-div">
                         <div class="cover-image">
+                            <div class="cover-descriptio2">
+                            </div>
                             <div style="text-align: center;">
                                 <p class="h3" style="padding-top: 25px;color:white">CUSTOMER REVIEWS<p>
-                                 <div class="avatar-div">   
-                                 <div class="avatar">
-                                    <img class="img-fluid" src="assets/images/972484.png" />
-                                </div> 
-                                </div>  
-                                 <p class="avatar-b-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus, sem sed eleifend convallis, eros turpis tristique urna, quis tempor turpis enim ac est. Praesent vel libero sapien. Suspendisse potenti. Donec vitae laoreet sapien.</p> 
-                                    
-                            </div>
-                            
-                            <div class="cover-descriptio2">
-                               
+                                        <div class="avatar-div">
+                                            <div class="avatar">
+                                                <img class="img-fluid" src="assets/images/972484.png" />
+                                            </div>
+                                        </div>
+                                        <div class="splide" id="onesplidelast">
+                                            <div class="splide__track">
+                                                <ul class="splide__list">
+                                                    <li class="splide__slide">
+                                                        <p class="avatar-b-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus, sem sed eleifend convallis, eros turpis tristique urna, quis tempor turpis enim ac est. Praesent vel libero sapien. Suspendisse potenti. Donec vitae laoreet sapien.</p>
+                                                    </li>
+                                                    <li class="splide__slide">
+                                                        <p class="avatar-b-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus, sem sed eleifend convallis, eros turpis tristique urna, quis tempor turpis enim ac est. Praesent vel libero sapien. Suspendisse potenti. Donec vitae laoreet sapien.</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                             </div>
                         </div>
                     </div>
@@ -1296,6 +1351,62 @@
         <!-- End of this section -->
         <script src="assets/js/script.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/splide.min.js"></script>
+        <script>
+        var width = window.innerWidth;
+
+        var isXSmall = width < 576;
+        var isExtraExtraLarge = width >= 1400;
+        var isExtraLarge = width >= 1200 && !isExtraExtraLarge;
+        var isLarge = width >= 992 && !isExtraLarge && !isExtraExtraLarge;
+        var isMedium = width >= 768 && !isLarge && !isExtraLarge && !isExtraExtraLarge;
+        var isSmall = width >= 576 && !isLarge && !isExtraLarge && !isExtraExtraLarge && !isMedium;
+
+
+        // Best seller Slider
+        if (isXSmall) {
+            new Splide('#stylingthird', {
+                perPage: 2,
+            }).mount();
+        } else {
+            console.log('sdd');
+            new Splide('#stylingthird', {
+                perPage: 5,
+            }).mount();
+        }
+
+
+
+
+
+        new Splide('#onesplidelast').mount();
+
+        new Splide('#styling', {
+            perPage: 4,
+        }).mount();
+
+        new Splide('#stylingfirst', {
+            perPage: 4,
+        }).mount();
+
+
+       
+
+function listingItemsmenu(){
+     let menuList = document.getElementById("menulist");
+    menuList.style.display = "block";
+        let categoryList = document.getElementById("categorylist");
+        categoryList.style.display = "none"; 
+
+}
+
+function listingItemCategory(){
+     let menuList = document.getElementById("menulist");
+    let categoryList = document.getElementById("categorylist");
+     menuList.style.display = "none";
+   categoryList.style.display = "block"; 
+}
+        </script>
         <!--      <script src="assets/js/bootstrap.min.js"></script> -->
 </body>
 

@@ -141,6 +141,17 @@ table tr {
     margin-top: 12px;
     z-index: 2;
 }
+.add-to-cart-box1{
+     position: absolute;
+    top: 0;
+    right: 0;
+    width: 17%;
+    height: 50%;
+    background-color: white;
+    margin-right: 12px;
+    margin-top: 12px;
+    z-index: 2;
+}
 .box-square{
     height: 21px;
     width: 12px;
@@ -209,7 +220,12 @@ table tr {
      
 }
 
-
+.margin-style > .splide__slide{
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
 .cover-descriptio2 {
    display: flex;
    position: absolute;
@@ -220,7 +236,7 @@ table tr {
    right: 0;
    bottom: 0;
    left: 0;
-   z-index: 2;
+   z-index: 1;
    background-color: #00000047;
 
 }
@@ -558,6 +574,10 @@ table tr {
     width: 27%;
     left: auto;
 }
+#exampleModal1{
+    left: 0 !important;
+    width: 83%;
+}
 
 .add-to-cart-style {
     position: absolute;
@@ -733,7 +753,7 @@ table tr {
 }
 
 .handburger-style {
-    display: none;
+    /*display: none;*/
 }
 
 .arranging-l {
@@ -878,6 +898,37 @@ table tr {
     color: #cfd0cf;
     padding-bottom: 20px;
 }
+ /*burger-button-styling*/
+ .modal-dialog1{
+    width: 30%;
+ }
+ .m-body{
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+ }
+ .m-button{
+    width: 50%;
+    background-color: #f5f5f5;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+ }
+ .m-list-item{
+    border: none;
+    border-bottom: 1px solid #ece0e0;
+    font-size: 15px;
+    font-weight: 500;
+ }
+ .b-display{
+    display: flex;
+    flex-direction: row;
+ }
+ .mod-2-style{
+    display: block;
+    right: 0;
+    width: 83%;
+ }
 @media (max-width: 768px) {
     .welcome {
         display: none;
