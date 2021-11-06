@@ -1,7 +1,7 @@
 .container-fluid{padding: 0px}
 .topTab {
     height: 40px;
-    background-color: #ffc107;
+    background-color: #fdc835;
     position: relative;
 }
 
@@ -18,19 +18,27 @@
 
 .nav-itemsStyle {
     position: absolute;
-    right: 45px;
+    right: 220px;
     top: 0px;
     color: white !important;
 }
 
 .nav-link1-style {
-    color: white;
+    padding-top: 8px !important;
 
 }
 
 .nav-link2-style {
-    color: white;
+    padding-top: 8px !important;
 
+
+}
+.logo-padding{
+    padding-left: 7px;
+}
+.menu-icon-m{
+    display: flex;
+    flex: 1;
 }
 
 .logo {
@@ -47,13 +55,31 @@
 
 .nav {
     font-size: small;
+    flex: 1;
 }
-
+.tab-menu-dis{
+    justify-content: space-between;
+    flex: 1;
+}
+.category-icon-m{
+    width: 25%;
+}
 .nav-link {
     color: black;
     font-weight: 500;
+    padding-top: 4px;
+    padding-right: 0px;
 }
-
+.w-image-social{
+    width: 23px;
+}
+.w-image-social1{
+    width: 32px;
+}
+.icons-arr{
+    display: flex;
+    justify-content: center;
+}
 .relative {
     position: relative;
 }
@@ -81,7 +107,7 @@
 }
 
 #firstItemstyle {
-    background-color: #ffc107;
+    background-color: #fdc835;
     height: 50px;
     color: white;
 }
@@ -278,11 +304,11 @@ table tr {
 }
 
 .signup-Box-style {
-    border: 2px solid #ecedec;
-    height: 94%;
-    width: 80%;
-    margin-top: 14px;
-    margin-left: 111px;
+    border: 5px solid #ecedec;
+    height: 354px;
+    width: 554px;
+    
+    margin-left: 77px;
 }
 
 .signup-box-content {
@@ -290,6 +316,19 @@ table tr {
     padding-top: 10px;
     
 
+}
+.belucki-reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 137px;
+}
+.belucki-signdes{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 111px;
 }
 
 .border-style-div {
@@ -343,12 +382,17 @@ table tr {
 }
 
 .num-style-span {
-    color: #E01020;
+    color: #ec4b58;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .fa-style {
-    margin-top: 10px;
+/*  
+    margin-top: 7px;
     margin-right: 5px;
+*/
+    margin-left: 10px;
 }
 
 .fa-style1 {
@@ -385,6 +429,7 @@ table tr {
     text-align: center;
     margin-left: 3px;
     margin-right: 3px;
+    font-weight: 700;
 }
 
 .btn-close {
@@ -455,7 +500,16 @@ table tr {
     padding-left: 15px;
     padding-right: 15px;
     border: none;
-    background-color: #ffc107;
+    background-color: #fdc835;
+    margin-bottom: 0px;
+}
+.btn-sty{
+    border: none;
+    background-color: #fdc835;
+    padding-top: 6px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .form-control {
@@ -485,7 +539,6 @@ table tr {
 .furnitureStyle {
     display: none;
     border: 1px solid #ece0e0;
-
 }
 
 .toysStyle {
@@ -552,7 +605,7 @@ table tr {
 }
 
 .first-animation-styling {
-    padding-left: 30px;
+    width: 75%;
 }
 
 .login-button-style {
@@ -729,16 +782,18 @@ table tr {
 }
 
 .last-div-p {
-    color: #ffc107;
+    color: #fdc835;
     font-size: 17px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 0px;
+    padding-left: 10px;
 }
 .last-div-hidden-p{
-    color: #ffc107;
+    color: #fdc835;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
      margin-bottom: 0px;
+     padding-left: 10px;
 }
 .last-div-belucki{
     color: #ffc107;
@@ -753,9 +808,13 @@ table tr {
 }
 
 .handburger-style {
-    /*display: none;*/
+    display: none;
 }
+.comp_logo{
+    padding-top: 25px;
+    padding-bottom: 20px;
 
+}
 .arranging-l {
     display: flex;
 }
@@ -801,7 +860,7 @@ table tr {
     margin-right: 357px;
 }
 .welcome-color{
-    color: #ffc107
+    color: #fdc835;
 }
 .list-group-item1{
     background-color: black !important;
@@ -929,6 +988,29 @@ table tr {
     right: 0;
     width: 83%;
  }
+ .clx-button{
+    bottom: 390px;
+    top: 12px;
+    right: 28px;
+ }
+ .fea_product{
+    font-weight: 600;
+    font-size: medium;
+ }
+ .fp-img-cap{
+    font-size: 14px;
+    font-weight: 500;
+    color: #565555;
+ }
+ .fa-bar-2{
+    font-size: 21px;
+    padding-top: 6px;
+ }
+  .login-reg-rhs-icons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+ }
 @media (max-width: 768px) {
     .welcome {
         display: none;
@@ -961,11 +1043,12 @@ table tr {
     }
 
     .first-image {
-        width: 100%;
+        width: 100% !important;
     }
 
     .first-animation-styling {
         padding-left: 0px;
+        width: 100%;
     }
 
     .arranging-m {
@@ -975,6 +1058,8 @@ table tr {
 
     .signup-Box-style {
         margin-left: 0px;
+        width: 100%;
+        height: 451px;
     }
 
     .d-flex-m {
@@ -1013,9 +1098,9 @@ table tr {
         padding-left: 17px;
     }
 
-    .signup-Box-style {
-        width: 100%;
-    }
+    
+    
+        
     .signup-box-content{
         padding-left: 10px;
         padding-right: 10px;
@@ -1050,5 +1135,16 @@ table tr {
  }
  .cat-style-p{
     padding-top: 12px;
+ }
+ .belucki-signdes{
+    width: 77%;
+    margin-left: 30px;
+ }
+ .belucki-reg{
+    width: 72%;
+    margin-left: 38px;
+ }
+ .positioning-div-m{
+    margin-top: 30px;
  }
 }

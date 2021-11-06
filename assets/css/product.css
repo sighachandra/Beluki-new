@@ -1,0 +1,70 @@
+.button-size-style{
+	
+	border-radius: 20px;
+	border-color: #cecccc;
+	color: black;
+}
+.btn-primary-s{
+	color: white;
+	background-color: #ff3f6c;
+	border-color: #ff3f6c;
+	width: 80%;
+	
+}
+.meta-desc{
+	font-size: 15px;
+	color: #282c3f;
+    font-weight: 300;
+}
+.off-color{
+	color: #ff905a;
+}
+.pdp-vatInfo{
+	color: #03a685;
+	font-weight: 500;
+	font-size: 14px;
+
+}
+.pdp-name{
+	color: #535665;
+	font-size: 19px;
+	font-weight: 300;
+	padding: 0px 20px 6px 0px;
+	margin-bottom: 0;
+	opacity: .8;
+}
+.pht-offer{
+	margin-top: 40px;
+	padding-bottom: 20px;
+}
+.index-row{
+	color: #7e818c;
+	font-size: 12px;
+	line-height: 1;
+	margin-bottom: 5px;
+}
+.see-more{
+	color: #ff3f6c;
+	font-size: small;
+
+}
+.breadcums{
+	color: #282c3f;
+	font-weight: 200;
+	font-size: small;
+
+}
+.breadcums-container{
+	padding: 29px 0px 22px 0px;
+}
+.separator{
+	margin: 0px 2px 0px 2px;
+}
+@media (max-width: 768px){
+	.wid-list{
+		width: 100%;
+	}
+	.list-padding{
+		padding-left: 12px !important;
+	}
+}
