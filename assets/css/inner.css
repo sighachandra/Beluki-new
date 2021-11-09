@@ -11,11 +11,15 @@
 }
 .know-more{
 	font-weight: 700;
-    background-color: white;
-    border: none;
+
 }
 .color-k-coupon{
 	 color: #ff3f6c;
+	  background-color: white;
+    border: none;
+}
+.coupon-ss{
+	font-weight: 100;
 }
 .free-color{
 	color: #03a685;
