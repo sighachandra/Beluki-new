@@ -60,6 +60,18 @@
 .separator{
 	margin: 0px 2px 0px 2px;
 }
+.slider-style-nw{
+	height: 126px !important;
+ 
+}
+
+.splide--nav>.splide__track>.splide__list>.splide__slide.is-active {
+	border: 3px solid #ff3f6c !important;
+}
+
+#thumbnail-slider{
+	margin-top: 10px;
+}
 @media (max-width: 768px){
 	.wid-list{
 		width: 100%;

@@ -11,7 +11,8 @@
 }
 .know-more{
 	font-weight: 700;
-
+    background-color: white;
+    border: none;
 }
 .color-k-coupon{
 	 color: #ff3f6c;
