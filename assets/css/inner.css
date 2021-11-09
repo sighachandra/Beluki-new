@@ -17,6 +17,7 @@
 	 color: #ff3f6c;
 	  background-color: white;
     border: none;
+    outline: none;
 }
 .coupon-ss{
 	font-weight: 100;
@@ -64,6 +65,23 @@
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+.dd-button{
+	color: black;
+	outline: none;
+	font-size: small;
+	font-weight: 600;
+}
+.dd-button:hover{
+	color: black;
+}
+.dd-button:focus{
+	box-shadow: none;
+	color: black;
+}
+.dd-button:active{
+	box-shadow: none!important;
+	color: black;
 }
 @media (max-width: 768px){
 .wid-content{
