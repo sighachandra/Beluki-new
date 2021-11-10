@@ -83,6 +83,19 @@
 	box-shadow: none!important;
 	color: black;
 }
+.ok-button{
+	color: white;
+	background-color: #ff3f6c;
+	border-color: #ff3f6c;
+}
+.modal-bd-content{
+	display: flex;
+	justify-content: center;
+}
+.place-order:active{
+	box-shadow: none;
+	
+}
 @media (max-width: 768px){
 .wid-content{
 	width: 100%;

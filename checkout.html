@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/inner.css">
     <link rel="stylesheet" href="assets/css/product.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -186,7 +187,61 @@
                             <p class="h6 m-0 font-size-par">Total Amount</p>
                             <p class="h6 m-0 font-size-par">&#x20b9;1,079</p>
                         </div>
-                        <button type="button" class="btn btn-primary-s btn-lg btn-block w-100 fs-6">PLACE ORDER</button>
+                        <div class="pt-3 mt-3">
+                            <p class="h6 font-size-par">ADDRESS</p>
+                        </div>
+                        <div>
+                            <ul class="list-group">
+                                <li class="border-bottom list-group-item border-0 w-100 ps-0 p-0">
+                                    <input class="border-0 out-input li-arranging" placeholder="Full Name">
+                                </li>
+                                <li class="border-bottom list-group-item border-0 w-100 ps-0 p-0">
+                                    <input class="border-0 out-input li-arranging" placeholder="Phone number">
+                                </li>
+                                <li class="border-bottom list-group-item border-0 w-100 ps-0 p-0">
+                                    <input class="border-0 out-input li-arranging" placeholder="Pincode">
+                                </li>
+                                <li class="border-bottom list-group-item border-0 w-100 ps-0 p-0">
+                                    <input class="border-0 out-input li-arranging" placeholder="Locality">
+                                </li>
+                                <li class="border-bottom list-group-item border-0 w-100 ps-0 p-0">
+                                    <textarea class="border-0 out-input li-arranging w-100" placeholder="Address"></textarea>
+                                </li>
+                                <li class="border-bottom list-group-item border-0 w-100 ps-0 p-0">
+                                    <input class="border-0 out-input li-arranging" placeholder="Landmark">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pt-3 mt-3">
+                            <p class="h6 font-size-par">REDEEM POINTS</p>
+                        </div>
+                        <div>
+                            <ul class="list-group">
+                                <li class="border-bottom list-group-item border-0 w-100 ps-0 p-0">
+                                    <input class="border-0 out-input li-arranging" placeholder="Redeem Points">
+                                </li>
+                            </ul>    
+                        </div>
+                        <div class="pt-3 mt-3">
+                            <button type="button" class="btn btn-primary-s btn-lg btn-block w-100 fs-6 place-order" data-bs-toggle="modal" data-bs-target="#exampleModal3">PLACE ORDER</button>
+                            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header border-0">
+                                            <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body modal-bd-content">
+                                            <p class="h5">Your Order Placed Succesfully</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn ok-button" data-bs-dismiss="modal">OK</button>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

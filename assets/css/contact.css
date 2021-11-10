@@ -27,10 +27,12 @@ label {
 
 .li-arranging {
     padding-top: 12px;
-    padding-bottom: 12px;
+    padding-bottom: 14px;
     font-size: 14px;
 }
-
+.msg-padding{
+    padding-bottom: 0px !important;
+}
 .submit-cont-style {
     width: 40%;
     border: 1px solid black;
