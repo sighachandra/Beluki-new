@@ -94,8 +94,15 @@
 }
 .place-order:active{
 	box-shadow: none;
-	
+
 }
+.place-order:focus{
+box-shadow: none;
+}
+.place-order:hover{
+   color: white;
+}
+
 @media (max-width: 768px){
 .wid-content{
 	width: 100%;
