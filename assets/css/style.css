@@ -1026,6 +1026,12 @@ table tr {
     display: none;
     overflow: auto;
  }
+ #signInDisplay{
+    overflow: auto;
+ }
+ #otpDisplay{
+    display: none;
+ }
  .lucky-cont{
     font-size: 20px;
     line-height: normal;

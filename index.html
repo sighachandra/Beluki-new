@@ -65,7 +65,7 @@
                             </div>
                             <div class="d-flex justify-content-end" style="margin-left: 17px;">
                                 <li class="nav-item login-reg-rhs-icons" style="margin-left: 60px;">
-                                    <button type="button" class="login-button-style" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="" style="padding-right: 5px;" onclick="signInBoxDispaly()">LOGIN/REGISTER</button>
+                                    <button type="button" class="login-button-style" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="" style="padding-right: 5px;" onclick="signInBoxDispaly()">LOGIN / REGISTER</button>
                                     <i class="fas fa-search fa-style"></i>
                                     <i class="far fa-heart fa-style"></i>
                                     <i class="fas fa-shopping-cart fa-style"></i>
@@ -81,6 +81,7 @@
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
 
+                                 <!-- Sign in section  -->
                 <div class="modal-content" id="signInDisplay">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">SIGN IN</h5>
@@ -95,20 +96,24 @@
                                 <label for="recipient-name" class="col-form-label modal-label">Username or email<span class="required">*</span></label>
                                 <input type="text" class="form-control" id="recipient-name">
                             </div>
-                             <div class="mb-3">
+                            <div class="mb-3">
                                 <label for="recipient-name" class="col-form-label modal-label">Password<span class="required">*</span></label>
                                 <input type="text" class="form-control" id="recipient-name">
                             </div>
-                            <button class="button-signIn-style">LOG IN</button>
+                            <div class="text-center">
+                                <button class="button-signIn-style">LOG IN</button>
+                            </div>
                         </form>
                         <div class="form-check justify-content-between">
                             <div class="d-flex ps-0">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label modal-label" for="flexCheckDefault">
-                                Remember me
-                            </label>
-                           </div>
-                            <a href="" class="text-decoration-none"><p class="modal-label ">Lost your password?</p></a>
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label modal-label" for="flexCheckDefault">
+                                    Remember me
+                                </label>
+                            </div>
+                            <a href="" class="text-decoration-none">
+                                <p class="modal-label ">Lost your password?</p>
+                            </a>
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -119,7 +124,8 @@
                         <button class="modal-label1 border-top-0 border-end-0 border-start-0" style="background-color: transparent;" onclick="registerBoxDisplay()">CREATE AN ACCOUNT</button>
                     </div>
                 </div>
-
+                                 <!-- end of the section -->
+                                <!-- Register form filling -->
                 <div class="modal-content" id="registerDisplay">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">REGISTER</h5>
@@ -131,14 +137,18 @@
                     <div class="modal-body modal1-body">
                         <form>
                             <div class="mb-3">
+                                <label for="message-text" class="col-form-label modal-label">Referal Code</label>
+                                <textarea class="form-control textarea-size" id="message-text" rows="2"></textarea>
+                            </div>
+                            <div class="mb-3">
                                 <label for="recipient-name" class="col-form-label modal-label">Name<span class="required">*</span></label>
                                 <input type="text" class="form-control" id="recipient-name" maxlength="64">
                             </div>
-                             <div class="mb-3">
+                            <div class="mb-3">
                                 <label for="recipient-name" class="col-form-label modal-label">Mobile Number<span class="required">*</span></label>
                                 <input type="text" class="form-control" id="recipient-name" maxlength="10">
                             </div>
-                             <div class="mb-3">
+                            <div class="mb-3">
                                 <label for="recipient-name" class="col-form-label modal-label">Email<span class="required">*</span></label>
                                 <input type="text" class="form-control" id="recipient-name" maxlength="64">
                             </div>
@@ -146,30 +156,49 @@
                                 <label for="message-text" class="col-form-label modal-label">Address<span class="required">*</span></label>
                                 <textarea class="form-control textarea-size" id="message-text"></textarea>
                             </div>
-                             <div class="mb-3">
-                                <label for="recipient-name" class="col-form-label modal-label" >OTP<span class="required">*</span></label>
-                                <input type="text" class="form-control" id="recipient-name" maxlength="5">
+                           
+                            <div class="text-center ">
+                                <div>
+                                    <p class="lucky-cont">Lucky Draw Amount: RS: 50</p>
+                                </div>
+                                <div class="text-center mb-2">
+                                    <button class="gpay-button"></button>
+                                </div>
+                                <div>
+                                    <button type="button" class="button-signIn-style" onclick="otpBoxDisplay()">CONTINUE</button>
+                                </div>
                             </div>
-                            <div class="mb-3">
-                                <label for="message-text" class="col-form-label modal-label">Link from Existing User (Optional)</label>
-                                <textarea class="form-control textarea-size" id="message-text" rows="2"></textarea>
-                            </div>
-                            <div>
-                            <p class="lucky-cont">Lucky Draw Amount: RS: 50</p>
-                             </div>
-                             <div class="text-center mb-2">
-                                 <button class="gpay-button"></button>
-                             </div>
-                            <button class="button-signIn-style">REGISTER</button>
                         </form>
-                        
                         <div class="text-center mt-3">
-                            <button class="modal-label1 border-top-0 border-end-0 border-start-0" style="background-color: transparent;" onclick="signInBoxDispaly()">BACK TO SIGN IN</button>
+                            <button type="button" class="modal-label1 border-top-0 border-end-0 border-start-0" style="background-color: transparent;" onclick="signInBoxDispaly()">BACK TO SIGN IN</button>
                         </div>
                     </div>
-                    
                 </div>
-
+                                                   <!-- end of the section -->
+                                                   <!-- OTP generation section -->
+                <div class="modal-content" id="otpDisplay">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">REGISTER</h5>
+                        <div>
+                            <button class="close-btn" data-bs-dismiss="modal" aria-label="Close">CLOSE</button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    </div>
+                    <div class="modal-body modal1-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label modal-label">OTP<span class="required">*</span></label>
+                                <input type="text" class="form-control" id="recipient-name" maxlength="5">
+                            </div>
+                            <div class="text-center ">
+                                <div>
+                                    <button type="button" class="button-signIn-style">REGISTER</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                                          <!-- end of the section -->
             </div>
         </div>
         <!-- End of the section -->
@@ -298,7 +327,7 @@
                                 <div class="modal-content">
                                     <div class="modal-header" style="border-bottom: 0px;">
                                         <p class="modal-title" id="exampleModalLabel" style="color: #989898;">search for products</p>
-                                        <button class="close-btn" data-bs-dismiss="modal" aria-label="Close">CLOSE</button>
+                                        <!-- <button class="close-btn" data-bs-dismiss="modal" aria-label="Close">CLOSE</button> -->
                                         <button type="button" class="btn-close clx-button" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body m-body">
@@ -840,45 +869,42 @@
             </div>
             <!-- //end of this section-->
             <!-- Begining of first image(250x250) section        -->
-            <div class="page-splitting" >
+            <div class="page-splitting">
                 <div class="container ">
                     <div class="first-image-styling  justify-content-center row">
                         <div class="splide" id="summerNew">
                             <div class="splide__track">
-                            <div class="splide__list">
-
-                        <div class="img1-p-div  splide__slide ">
-                            <img class="img-fluid p-2 padd-fist-img" src="assets/images/baner-fashing-10.jpg" />
-                            <div class="first-img-im1-text-style">
-                                <p class="summer-new">SUMMER NEW</p>
-                                <p class="h2 second-text">AMAZING</p>
-                                <p class="h2">FASHION</p>
-                                <p class="shop-now">SHOP NOW</p>
+                                <div class="splide__list">
+                                    <div class="img1-p-div  splide__slide ">
+                                        <img class="img-fluid p-2 padd-fist-img" src="assets/images/baner-fashing-10.jpg" />
+                                        <div class="first-img-im1-text-style">
+                                            <p class="summer-new">SUMMER NEW</p>
+                                            <p class="h2 second-text">AMAZING</p>
+                                            <p class="h2">FASHION</p>
+                                            <p class="shop-now">SHOP NOW</p>
+                                        </div>
+                                    </div>
+                                    <div class="img1-p-div  splide__slide">
+                                        <img class="img-fluid p-2 pe-0" src="assets/images/baner-fashing-10.jpg" />
+                                        <div class="first-img-im2-text-style">
+                                            <p class="summer-new">BEST NEW</p>
+                                            <p class="h2 second-text">STYLISH</p>
+                                            <p class="h2">FASHION</p>
+                                            <p class="shop-now">SHOP NOW</p>
+                                        </div>
+                                    </div>
+                                    <div class="img1-p-div  splide__slide">
+                                        <img class="img-fluid p-2 pe-0" src="assets/images/baner-fashing-10.jpg" />
+                                        <div class="first-img-im3-text-style">
+                                            <p class="summer-new">NEW 2017</p>
+                                            <p class="h2 second-text">FASHION</p>
+                                            <p class="h2">STYLE</p>
+                                            <p class="shop-now">SHOP NOW</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="img1-p-div  splide__slide">
-                            <img class="img-fluid p-2 pe-0" src="assets/images/baner-fashing-10.jpg" />
-                            <div class="first-img-im2-text-style">
-                                <p class="summer-new">BEST NEW</p>
-                                <p class="h2 second-text">STYLISH</p>
-                                <p class="h2">FASHION</p>
-                                <p class="shop-now">SHOP NOW</p>
-                            </div>
-                        </div>
-
-                        <div class="img1-p-div  splide__slide">
-                            <img class="img-fluid p-2 pe-0" src="assets/images/baner-fashing-10.jpg" />
-                            <div class="first-img-im3-text-style">
-                                <p class="summer-new">NEW 2017</p>
-                                <p class="h2 second-text">FASHION</p>
-                                <p class="h2">STYLE</p>
-                                <p class="shop-now">SHOP NOW</p>
-                            </div>
-                        </div>
-                       </div>
-                   </div>
-                   </div>
                     </div>
                 </div>
             </div>
@@ -896,7 +922,6 @@
                     <div class="row splide" id="stylingfirst">
                         <div class="splide__track">
                             <div class="splide__list margin-style">
-
                                 <div class="img2-style col-md-3 col-sm-4 col-6 splide__slide">
                                     <div class="w-100 hovering-style" style="position: relative;">
                                         <img class="w-100" src="assets/images/new-img.300x300.jpg" />
@@ -912,7 +937,6 @@
                                         <span class="first-img-caption2">Fashion</span>
                                     </div>
                                 </div>
-
                                 <div class="img2-style col-md-3 col-sm-4 col-6 splide__slide">
                                     <div class="w-100 hovering-style" style="position: relative;">
                                         <img class="w-100" src="assets/images/new-img.300x300.jpg" />
@@ -1504,19 +1528,27 @@
             var isSmall = width >= 576 && !isLarge && !isExtraLarge && !isExtraExtraLarge && !isMedium;
 
 
-            // Best seller Slider
-            if (isXSmall) {
-                new Splide('#stylingthird', {
-                    perPage: 2,
-                }).mount();
-            } else {
-                console.log('sdd');
-                new Splide('#stylingthird', {
-                    perPage: 5,
-                }).mount();
-            }
+            // // Best seller Slider
+            // if (isXSmall) {
+            //     new Splide('#stylingthird', {
+            //         perPage: 2,
+            //     }).mount();
+            // } else {
+            //     console.log('sdd');
+            //     new Splide('#stylingthird', {
+            //         perPage: 5,
+            //     }).mount();
+            // }
 
-
+            new Splide('#stylingthird', {
+                perPage: 5,
+                pagination: false,
+                breakpoints: {
+                    768: {
+                        perPage: 2,
+                    },
+                },
+            }).mount();
 
 
 
@@ -1527,7 +1559,7 @@
                 pagination: false,
                 breakpoints: {
                     768: {
-                       perPage: 2, 
+                        perPage: 2,
                     },
                 },
             }).mount();
@@ -1537,11 +1569,11 @@
                 pagination: false,
                 breakpoints: {
                     768: {
-                       perPage: 2, 
+                        perPage: 2,
                     },
                 },
             }).mount();
-            
+
             new Splide('#summerNew', {
                 perPage: 3,
                 pagination: false,
@@ -1552,7 +1584,7 @@
                     },
                 },
             }).mount();
-            
+
 
 
 
@@ -1571,13 +1603,21 @@
                 categoryList.style.display = "block";
             }
 
-            function registerBoxDisplay(){
+            function registerBoxDisplay() {
                 document.getElementById("registerDisplay").style.display = "block";
                 document.getElementById("signInDisplay").style.display = "none";
+                document.getElementById("otpDisplay").style.display = "none";
             }
-            function signInBoxDispaly(){
+
+            function signInBoxDispaly() {
                 document.getElementById("registerDisplay").style.display = "none";
                 document.getElementById("signInDisplay").style.display = "block";
+                document.getElementById("otpDisplay").style.display = "none";
+            }
+            function otpBoxDisplay() {
+                console.log("lorem");
+                document.getElementById("registerDisplay").style.display = "none";
+                document.getElementById("otpDisplay").style.display = "block";
             }
             </script>
             <!--      <script src="assets/js/bootstrap.min.js"></script> -->
