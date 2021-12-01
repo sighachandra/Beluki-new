@@ -6,6 +6,7 @@
 }
 .col-8-bb{
     background-color: white;
+    box-shadow: 2px 2px #ced4da45;
 }
 .col_4_set{
     display: flex;
@@ -29,6 +30,16 @@
     background-color: white;
     color: #fdc835;
 }
+.list-group{
+    width: 75%;
+}
+.list-group-item{
+    width: 100%;
+    box-shadow: 2px 2px #ced4da45;
+}
+.ps-for-sec{
+    padding-left: 24px;
+}
 @media (max-width: 768px) {
    .col_4_set{
     justify-content: center;
@@ -40,5 +51,11 @@
    }
    .list-group-item{
     width: 100%;
+   }
+   .m_col_sty{
+    padding-top: 12px;
+   }
+   .ps-for-sec{
+    padding-left: 0px;
    }
 }
