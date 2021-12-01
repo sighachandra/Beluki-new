@@ -40,6 +40,17 @@
 .ps-for-sec{
     padding-left: 24px;
 }
+.txt_width_pro{
+    width: 33%;
+}
+.btn-submit-pro{
+    width: 234px;
+    height: 44px;
+    background-color: #da3c3c;
+    border: none;
+    color: white;
+    margin-top: 7px;
+}
 @media (max-width: 768px) {
    .col_4_set{
     justify-content: center;
@@ -57,5 +68,8 @@
    }
    .ps-for-sec{
     padding-left: 0px;
+   }
+   .txt_width_pro{
+    width: 81%;
    }
 }
