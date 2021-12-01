@@ -1,0 +1,44 @@
+.p_font_sizing{
+ font-size:14px;
+}
+.bb_color_sec{
+    background-color: #f1f3f6;
+}
+.col-8-bb{
+    background-color: white;
+}
+.col_4_set{
+    display: flex;
+    justify-content: flex-end;
+}
+.inner_p_col{
+    color: #808080e0;
+}
+.input_style_pro{
+    background-color: white;
+    border: 1px solid #ced4da;
+   
+     padding: 6px 12px 6px 12px;
+}
+.hello_name{
+    display: flex;
+    flex-direction: column;
+}
+.btn_style_pro{
+    border: none;
+    background-color: white;
+    color: #fdc835;
+}
+@media (max-width: 768px) {
+   .col_4_set{
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+   } 
+   .list-group{
+    width: 100%;
+   }
+   .list-group-item{
+    width: 100%;
+   }
+}
