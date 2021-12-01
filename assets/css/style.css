@@ -4,6 +4,10 @@
     background-color: #fdc835;
     position: relative;
 }
+.h6_topbar{
+    font-size: small;
+    padding-top: 2px;
+}
 
 .topTabP {
     color: white;
@@ -625,7 +629,7 @@ table tr {
 }
 
 #exampleModal {
-    right: 0 !important;
+    right: 38% !important;
     width: 27%;
     left: auto;
 }
@@ -1051,6 +1055,9 @@ table tr {
     outline: none;
  }
 @media (max-width: 768px) {
+    .h6_topbar{
+        display: none;
+    }
 .padd-fist-img{
     padding-right: 8px !important;
 }
